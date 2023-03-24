@@ -11,11 +11,9 @@
             "id": "1b3ec4734a473160",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Godot- 2D Secret/游戏开发第四弹.md",
-                "mode": "source",
-                "source": false
+                "file": "Pictures/Pasted image 20230324084139.png"
               }
             }
           },
@@ -97,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Godot- 2D Secret/游戏开发第四弹.md",
+                "file": "Pictures/Pasted image 20230324084139.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Godot- 2D Secret/游戏开发第四弹.md",
+                "file": "Pictures/Pasted image 20230324084139.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot- 2D Secret/游戏开发第四弹.md"
+                "file": "Pictures/Pasted image 20230324084139.png"
               }
             }
           },
@@ -166,11 +164,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b3ec4734a473160",
+  "active": "d77db69490b0678e",
   "lastOpenFiles": [
-    "Godot- 2D Secret/实用工具.md",
+    "Godot- 2D Secret/Learn GDScript from zero.md",
+    "Pictures/Pasted image 20230324084757.png",
+    "Pictures/Pasted image 20230324084139.png",
     "Godot- 2D Secret/游戏开发第四弹.md",
+    "Pictures/Pasted image 20230324083701.png",
+    "Pictures/Pasted image 20230324083815.png",
+    "Pictures/Pasted image 20230324083547.png",
     "assert().md",
+    "Godot- 2D Secret/实用工具.md",
     "Godot_API_名字和用法",
     "Godot- 2D Secret/游戏设计第三弹.md",
     "Godot- 2D Secret/游戏设计第二弹.md",
@@ -191,9 +195,6 @@
     "New Text Document.txt",
     "08F3525E.png",
     "Pictures/Pasted image 20230314224213.png",
-    "Pictures/Pasted image 20230314224153.png",
-    "Pictures/Pasted image 20230314224112.png",
-    "Pictures/Pasted image 20230314210351.png",
     "Pictures",
     "Godot- 2D Secret",
     "致：一年后的自己.md",
