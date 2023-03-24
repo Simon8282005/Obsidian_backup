@@ -148,11 +148,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 316.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d77db69490b0678e",
+  "active": "76da57052d1adbaa",
   "lastOpenFiles": [
     "Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230324084757.png",
