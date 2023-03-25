@@ -35,3 +35,24 @@ godot 里坐标的原点是在画面（应该是说一个 sprite）的左上角�
 ![[Pasted image 20230324084757.png]]
 
 你好呀海龟兄 XDD
+
+# Lesson 5: Coding Your First Function
+
+```python
+func draw_square:
+	move_forward(200)
+	turn_right(90)
+	move_forward(200)
+	turn_right(90)
+	move_forward(200)
+	turn_right(90)
+	move_forward(200)
+	turn_right(90)
+```
+
+# Lesson 6: Your First Function Parameter
+
+![[Pasted image 20230325145631.png]]
+
+![[Pasted image 20230325150140.png]]
+
