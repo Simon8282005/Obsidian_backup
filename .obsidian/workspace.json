@@ -8,22 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1b3ec4734a473160",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pictures/Pasted image 20230324084139.png"
-              }
-            }
-          },
-          {
             "id": "401a729b15870358",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assert().md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pictures/Pasted image 20230324084139.png",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pictures/Pasted image 20230324084139.png",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pictures/Pasted image 20230324084139.png"
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md"
               }
             }
           },
@@ -164,16 +154,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "76da57052d1adbaa",
+  "active": "401a729b15870358",
   "lastOpenFiles": [
+    "assert().md",
+    "Pictures/Pasted image 20230324084139.png",
     "Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230324084757.png",
-    "Pictures/Pasted image 20230324084139.png",
     "Godot- 2D Secret/游戏开发第四弹.md",
     "Pictures/Pasted image 20230324083701.png",
     "Pictures/Pasted image 20230324083815.png",
     "Pictures/Pasted image 20230324083547.png",
-    "assert().md",
     "Godot- 2D Secret/实用工具.md",
     "Godot_API_名字和用法",
     "Godot- 2D Secret/游戏设计第三弹.md",
