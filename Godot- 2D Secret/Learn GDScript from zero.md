@@ -56,3 +56,14 @@ func draw_square:
 
 ![[Pasted image 20230325150140.png]]
 
+# Lesson 7: Introduction to Member Variable
+
+
+![[Pasted image 20230325153034.png]]
+
+![[Pasted image 20230325153153.png]]
+
+和数学里的坐标有出入
+
+
+
