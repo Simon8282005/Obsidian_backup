@@ -65,5 +65,13 @@ func draw_square:
 
 和数学里的坐标有出入
 
+# Lesson 8: Define Your Own Variables
 
+GDScript里，变量更像是一种标签，让你为这个数据贴上相对应的标签，避免它消失在茫茫"数"海中
+
+# Lesson 9: Adding and Subtracting (减去)
+
+![[Pasted image 20230325154956.png]]
+
+这血条真别致啊 XDDD
 
