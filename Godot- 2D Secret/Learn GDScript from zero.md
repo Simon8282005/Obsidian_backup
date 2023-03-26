@@ -105,3 +105,16 @@ def __init__(self):
 这就是有用 `delta` 和没用 `delta` 的区别，明显有用 `delta` 的运行速度比较快，有了 `delta`， 游戏才能平稳的在各种设备上运行，不会出现配置比较好的电脑游戏会运行比较快的情况
 
 
+# Lesson 12: Using Variable to Make Code Eaier to Read
+
+![[Pasted image 20230326091435.png]]
+
+在第二行，我们需要猜到底 4 是什么来的究竟是代表什么，但如果使用一个 variable 情况就好多了
+
+![[Pasted image 20230326091626.png]]
+
+看起来清楚多了 (angular = 角度)
+
+![[Pasted image 20230326091852.png]]
+
+定义在 function 里面当然只有这个 function 能用咯
