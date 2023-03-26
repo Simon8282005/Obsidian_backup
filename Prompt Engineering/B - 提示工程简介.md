@@ -20,5 +20,59 @@ temperature = 2.0  # 我是个有主见有创意的孩子
 
 在生成文字的时候，语言模型会根据贪心算法或是随机生成下一个候选词，但这个样做的话会导致生成的文本过度重复，很 boring
 
-但
+但在 `top_p` 采样中，预选的字会根据概率排在一起，语言模型会选择该字的概率达到阈值的字作为候选词，并在候选词中选出拥有最高可能性的字或词，这个阈值就是 `top_p`
+
+---
+
+# 基本提示
+
+### Simple prompt
+
+先试试一个简单的提示
+
+```prompt
+The sky is
+```
+
+语言模型可能会生成以下的句子
+
+```prompt
+blue
+The sky is blue on a clear day. On a cloudy day, the sky may be gray or white.
+```
+
+语言模型生成了一些能与 `the sky is` 作为连接的句子，但要是我们给语言模型一些额外的提示呢
+
+```prompt
+Complete the sentence:
+The sky is
+```
+
+结果：
+
+```prompt
+so beautiful today.
+```
+
+有了提示，结果有很不一样哦 XDD
+
+但是，ChatGPT 的回答有些吓到我了
+
+![[Pasted image 20230326154850.png]]
+
+ChatGPT 自动帮你把句子接了下去，好家伙
+
+但其他的语言模型生成的句子就有差别了：
+
+![[Pasted image 20230326155102.png]]
+
+Claude 直接显示我不理解你想到的东西是什么 XDD
+
+![[Pasted image 20230326155135.png]]
+
+Dragonfly 效果也很明显，但最后一句 `中文` 我整笑了 XDDD，看来这个语言模型还有待改进
+
+![[Pasted image 20230326155200.png]]
+
+### Prompt Formatting
 
