@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot- 2D Secret/实用工具.md",
+                "file": "实用工具.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71f9ce21b87d2725",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prompt Engineering/B - 提示工程简介.md",
+                "file": "实用工具.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prompt Engineering/B - 提示工程简介.md",
+                "file": "实用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prompt Engineering/B - 提示工程简介.md",
+                "file": "实用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prompt Engineering/B - 提示工程简介.md"
+                "file": "实用工具.md"
               }
             }
           }
@@ -185,8 +173,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71f9ce21b87d2725",
+  "active": "27d1ea948a7e0072",
   "lastOpenFiles": [
+    "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
+    "README.md",
+    "实用工具.md",
+    "Prompt Engineering/B - 提示工程简介.md",
     "Pictures/Pasted image 20230326161000.png",
     "Pictures/Pasted image 20230326160932.png",
     "Pictures/Pasted image 20230326160907.png",
@@ -196,14 +188,10 @@
     "Pictures/Pasted image 20230326155135.png",
     "Pictures/Pasted image 20230326155102.png",
     "Pictures/Pasted image 20230326154850.png",
-    "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
-    "Prompt Engineering/B - 提示工程简介.md",
-    "Godot- 2D Secret/实用工具.md",
     "Prompt Engineering",
     "Daily",
     "Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230326091852.png",
-    "Pictures/Pasted image 20230326091626.png",
     "Godot_API_名字和用法/assert().md",
     "Godot- 2D Secret/游戏开发第四弹.md",
     "Godot_API_名字和用法",
@@ -218,7 +206,6 @@
     "Untitled.canvas",
     "Obsidian_backup/README.md",
     "Obsidian_backup",
-    "README.md",
     "README.md.txt",
     "New Text Document.txt",
     "Pictures",
