@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot- 2D Secret/实用工具.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,10 +66,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "e94ab78665307cca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76da57052d1adbaa",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 240.5
   },
   "right": {
     "id": "01689e0ac3f054c2",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Godot- 2D Secret/实用工具.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Godot- 2D Secret/实用工具.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,20 +139,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot- 2D Secret/实用工具.md"
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md"
               }
-            }
-          },
-          {
-            "id": "76da57052d1adbaa",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -154,8 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "67a6918e5ff4f5dd",
+  "active": "76da57052d1adbaa",
   "lastOpenFiles": [
+    "Pasted image 20230326081526.png",
+    "Godot- 2D Secret/实用工具.md",
     "Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230325154956.png",
     "Pictures/Pasted image 20230325153153.png",
@@ -169,7 +177,6 @@
     "Pictures/Pasted image 20230324084757.png",
     "Godot- 2D Secret/游戏开发第四弹.md",
     "Pictures/Pasted image 20230324083701.png",
-    "Godot- 2D Secret/实用工具.md",
     "Godot_API_名字和用法",
     "Godot- 2D Secret/游戏设计第三弹.md",
     "Godot- 2D Secret/游戏设计第二弹.md",

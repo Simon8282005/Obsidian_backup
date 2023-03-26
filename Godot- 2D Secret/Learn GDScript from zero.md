@@ -75,3 +75,26 @@ GDScript里，变量更像是一种标签，让你为这个数据贴上相对应
 
 这血条真别致啊 XDDD
 
+# Lesson 10: The Game Loop
+
+![[Pasted image 20230326081526.png]]
+
+有 `_` 的代码，比如 `_process（）` 或是 `_ready()` 代表这个 function 已经被 godot 定义好了
+
+有 `__` 的变量通常代表着不能背直接访问，这个习惯可以提升代码的可读性和可维护性
+
+```python
+def __init__(self):
+	pass
+```
+
+之前学 python 的时候就很奇怪为什么会有两个 `__` ，原来这代表这个函数是强制私有，不能被之间访问
+
+`_process` 每秒的运行速度取决于电脑的运行速度，电脑 cpu 越强，运行次数越多
+
+# Lesson 11: Time Delta (Delta 是啥来着)
+
+
+
+
+
