@@ -94,6 +94,12 @@ def __init__(self):
 
 # Lesson 11: Time Delta (Delta 是啥来着)
 
+> 60 FPS 表示每妙有 60 张图片被更新（像像素画）动画的格式
+
+![[Pasted image 20230326083009.png]]
+
+`delta` 回传 Godot 用了多久的时间来完成上一个 frame
+
 
 
 
