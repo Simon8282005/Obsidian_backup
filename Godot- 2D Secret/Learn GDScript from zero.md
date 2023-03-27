@@ -219,10 +219,51 @@ modulo 能拿来制作一个循环呀（不是 `for` & `while` 的那个循环
 
 ### 用处 3：Calculating random number within a range
 
-``
+`randi()` function 能生成很多很多很多的号码。。。(10^18 的号码 for 电脑，and 2 billion for 手机)
+
+`modulo %` 就能用来限制随机的数字避免过大
 
 ```javascript
 func roll_dice():
 	var dice_value = randi() % max_number + 1
 	display_value(dice_value)
 ```
+
+1.  当 `randi()` 函数返回0时，计算如下：  
+    dice_value = 0 % 6 + 1  
+    dice_value = 1
+ > 在最后尾端需要加一就是为了避免的到的结果为 0
+
+2.  当 `randi()` 函数返回3时，计算如下：  
+    dice_value = 3 % 6 + 1  
+    dice_value = 4
+    
+
+3.  当 `randi()` 函数返回5时，计算如下：  
+    dice_value = 5 % 6 + 1  
+    dice_value = 6
+
+跟着顺序跑，先做 % 在做 + 1
+
+### Practice
+
+```javascript
+func level_up():
+	level += 1
+	if level % 2 == 0:
+		max_health += 10
+	else:
+		max_health += 5
+```
+
+上面的代码是没有问题，但还能写的更加的简短，逻辑上是一样的 XDD
+
+```javascript
+func level_up():
+	level += 1
+	max_health += 5
+	if level % 2 == 0:
+		max_health += 5
+```
+
+
