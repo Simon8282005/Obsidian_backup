@@ -208,10 +208,93 @@ Text: "Hello World !"
 
 指示写的越详细越细节就越好，尤其关于我们想到的输出结果，但是也不要写太多和任务无关的细节，反而会适得其反
 
+```java
+Extract the name of places in the following text  
+Desired format:  
+Place: <comma_separated_list_of_company_names, places_name>
 
+Input: "Although these developments are encouraging to researchers, much is still a mystery. “We often have a black box between the brain and the effect we see in the periphery,” says Henrique Veiga-Fernandes, a neuroimmunologist at the Champalimaud Centre for the Unknown in Lisbon. “If we want to use it in the therapeutic context, we actually need to understand the mechanism."
+```
+
+我去。。。这写的也太精确了吧 XDDD
+
+这次全部的模型生成的结果竟然一模一样？？好家伙
+
+###### ChatGPT
+
+![[Pasted image 20230327133836.png]]
+
+###### Sage
+
+![[Pasted image 20230327133928.png]]
+
+###### Claude
+
+![[Pasted image 20230327133943.png]]
+
+###### Dragonfly
+
+![[Pasted image 20230327133955.png]]
 
 ### Avoid Impreciseness (避免不精确)
 
+和模型对话的时候就要当个直男，越直接越好，避免拐弯抹角，要不然谁看的懂啊
 
+```txt
+Explain the concept prompt engineering. Keep the explanation short, only a few sentences, and don't be too descriptive.
+```
+
+```python
+解释一下 Prompt Engineering。让解释保持简短，只有几个句子，同时别太复杂
+```
+
+###### ChatGPT
+
+![[Pasted image 20230327134502.png]]
+
+###### Sage
+
+![[Pasted image 20230327134545.png]]
+
+###### Claude
+
+![[Pasted image 20230327134704.png]]
+
+###### Dragonfly
+
+![[Pasted image 20230327134715.png]]
+
+
+还能写的更详细一些，明确的说明想要多少个句子并且是什么风格
+
+```txt
+Use 2-3 sentences to explain the concept of prompt engineering to a high school student.
+```
+
+```python
+用两到三句的句子为一位高中生解释什么是 Prompt Engineering
+```
+
+```python
+用两到三句的句子为一位五岁小孩解释什么是 Prompt Engineering
+```
+
+###### ChatGPT
+
+![[Pasted image 20230327135011.png]]
+
+和我一开始玩 ChatGPT 的时候一样，回答的真的是连小孩子都看得懂啊
+
+###### Sage
+
+![[Pasted image 20230327135156.png]]
+
+###### Claude
+
+![[Pasted image 20230327135254.png]]
+
+###### Dragonfly
+
+![[Pasted image 20230327135344.png]]
 
 ### To do or not to do ? (做还是不做？)
