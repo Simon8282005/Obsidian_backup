@@ -155,3 +155,63 @@ What a horrible show! //
 ---
 # Prompt Elements
 
+在提示里面可以拥有各种各样的元素，比如：
+
+```python
+Intruction (指示) - 希望模型能执行特定的任务或者指令
+Context (背景) - 可以附上额外资讯或是上下文，让 AI 能更好的做出回答
+Input Data (输入) - 输入想要 AI 回答的问题
+Output Indicator (输出) - 输出的格式
+```
+
+---
+# Generally Tips for Designing Prompts
+
+### Start Simple (开始简单)
+
+想学编程时，把一个大任务分成好几个子任务，并且逐一完成，而不是一次过把一项很大很复杂的工作交给模型处理，模型会直接当机啊喂
+
+或是可以从简单的任务开始，慢慢的添加上下文，背景等等已得到最好的结果
+
+### The Intruction (指令)
+
+我们可以使用命令来明确的告诉模型要它帮忙实现那一个目标，比如“写作”，“诗歌”，"分类" 等等
+
+上下文越具体越相互呼应能让模型生成更加准确的结果
+
+```python
+### Intruction ###
+Translate the text below to Chinese:
+Text: "Hello World !"
+```
+
+###### ChatGPT
+
+![[Pasted image 20230327132854.png]]
+
+###### Sage
+
+![[Pasted image 20230327132917.png]]
+
+###### Claude 
+
+![[Pasted image 20230327132940.png]]
+
+###### Dragonfly
+
+![[Pasted image 20230327132955.png]]
+
+
+
+
+### Specificity (特异性)
+
+指示写的越详细越细节就越好，尤其关于我们想到的输出结果，但是也不要写太多和任务无关的细节，反而会适得其反
+
+
+
+### Avoid Impreciseness (避免不精确)
+
+
+
+### To do or not to do ? (做还是不做？)
