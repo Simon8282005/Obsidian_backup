@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实用工具.md",
+                "file": "Prompt Engineering/B - 提示工程简介.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "Prompt Engineering/B - 提示工程简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "Prompt Engineering/B - 提示工程简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md"
+                "file": "Prompt Engineering/B - 提示工程简介.md"
               }
             }
           }
@@ -185,8 +185,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27d1ea948a7e0072",
+  "active": "67a6918e5ff4f5dd",
   "lastOpenFiles": [
+    "实用工具.md",
+    "Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230327115312.png",
     "Pictures/Pasted image 20230327114906.png",
     "Pictures/Pasted image 20230327114515.png",
@@ -197,10 +199,7 @@
     "Pictures/Pasted image 20230327114252.png",
     "Pictures/Pasted image 20230327114243.png",
     "Pictures/Pasted image 20230327114232.png",
-    "Pictures/Pasted image 20230327113946.png",
     "README.md",
-    "Godot- 2D Secret/Learn GDScript from zero.md",
-    "实用工具.md",
     "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
     "Prompt Engineering/B - 提示工程简介.md",
     "Prompt Engineering",
