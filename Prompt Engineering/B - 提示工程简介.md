@@ -319,3 +319,7 @@ The following is an agent that recommends movies to a customer. The agent is res
 Sorry, I don't have any information about your interests. However, here's a list of the top global trending movies right now: [list of movies]. I hope you find something you like!
 ```
 
+
+---
+# Examples of Prompts
+
