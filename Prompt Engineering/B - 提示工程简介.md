@@ -297,4 +297,25 @@ Use 2-3 sentences to explain the concept of prompt engineering to a high school 
 
 ![[Pasted image 20230327135344.png]]
 
+
 ### To do or not to do ? (做还是不做？)
+
+我们在设计 Prompt 时，应该专注在该做什么，而不是画很多的笔墨专注在不该做什么，否则效果可能和我们预想的相差甚远
+
+```javascript
+The following is an agent that recommends movies to a customer. DO NOT ASK FOR INTERESTS. DO NOT ASK FOR PERSONAL INFORMATION.Customer: Please recommend a movie based on my interests.
+Agent:
+```
+
+```javascript
+Sure, I can recommend a movie based on your interests. What kind of movie would you like to watch? Do you prefer action, comedy, romance, or something else?
+```
+
+```txt
+The following is an agent that recommends movies to a customer. The agent is responsible to recommend a movie from the top global trending movies. It should refrain from asking users for their preferences and avoid asking for personal information. If the agent doesn't have a movie to recommend, it should respond "Sorry, couldn't find a movie to recommend today.".Customer: Please recommend a movie based on my interests.Agent:
+```
+
+```txt
+Sorry, I don't have any information about your interests. However, here's a list of the top global trending movies right now: [list of movies]. I hope you find something you like!
+```
+
