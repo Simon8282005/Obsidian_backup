@@ -118,3 +118,15 @@ def __init__(self):
 ![[Pasted image 20230326091852.png]]
 
 定义在 function 里面当然只有这个 function 能用咯
+
+---
+
+# Lesson 13: Coditions （条件）
+
+如果没有条件的话就有出现这种情况了 XDDD
+
+![[Pasted image 20230325154956.png]]
+
+![[Pasted image 20230327084135.png]]
+
+# Lesson 14: Multiplying
