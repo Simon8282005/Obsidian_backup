@@ -184,7 +184,7 @@ modulo 同样不能和 0 一起搭配，会有错误
 
 ![[Pasted image 20230327113946.png]]
 
-### Modulo 用处 1：Number Cycle （数字循环）
+### 用处 1：Number Cycle （数字循环）
 
 modulo 能拿来制作一个循环呀（不是 `for` & `while` 的那个循环
 
@@ -209,5 +209,20 @@ modulo 能拿来制作一个循环呀（不是 `for` & `while` 的那个循环
 
 ![[Pasted image 20230327114906.png]]
 
-### Modulo 用处 2：Find even or odd number (单数还是复数)
+### 用处 2：Find even or odd number (单数还是复数)
 
+![[Pasted image 20230327115312.png]]
+
+同理，1 % 2，1 不能被整除，返回 1
+
+反之，2,4,6 都能被 2 整除，返回 0
+
+### 用处 3：Calculating random number within a range
+
+``
+
+```javascript
+func roll_dice():
+	var dice_value = randi() % max_number + 1
+	display_value(dice_value)
+```
