@@ -176,3 +176,38 @@ health -= (amount *= 0.5*)
 
 > modulo 不能用在小数点上
 
+这张图能更好的理解 modulo 是怎么一回事
+
+![[Pasted image 20230327113845.png]]
+
+modulo 同样不能和 0 一起搭配，会有错误
+
+![[Pasted image 20230327113946.png]]
+
+### Modulo 用处 1：Number Cycle （数字循环）
+
+modulo 能拿来制作一个循环呀（不是 `for` & `while` 的那个循环
+
+![[Pasted image 20230327114232.png]]
+![[Pasted image 20230327114243.png]]
+![[Pasted image 20230327114306.png]]
+![[Pasted image 20230327114317.png]]
+
+```python
+1 % 3 = 3
+2 % 3 = 1
+3 % 3 = 0
+```
+
+![[Pasted image 20230327114451.png]]
+![[Pasted image 20230327114502.png]]
+![[Pasted image 20230327114515.png]]
+
+有图片看就是好多了，1 不能被 3 整除，余 1，2 也一样，所以余 2，但 3 能被整除，余 0，`light_index` 数值又回到了 0，这样就能继续循环下去，不会出现说 `light_index` = 100 这种情况
+
+当然，用 `if` `else` 也可以实现同样的效果，但用 `modulo %` 能写出更简短的代码
+
+![[Pasted image 20230327114906.png]]
+
+### Modulo 用处 2：Find even or odd number (单数还是复数)
+
