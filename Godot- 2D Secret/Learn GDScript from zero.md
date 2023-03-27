@@ -129,4 +129,50 @@ def __init__(self):
 
 ![[Pasted image 20230327084135.png]]
 
-# Lesson 14: Multiplying
+---
+
+# Lesson 14: Multiplying (乘法)
+
+正常的情况来说玩家的 `max_health` 是直线型上升的，但根据大多数游戏的设定，等级越高就需要更多的经验值来升级，所以 `max_health` 的增加当然也不能和之前的较低的等级一样
+
+![[Pasted image 20230327084922.png]]
+
+应该是以这种方式上升
+
+![[Pasted image 20230327085106.png]]
+
+能用 simbol `*=` 让数值直接乘上去
+
+![[Pasted image 20230327085229.png]]
+
+```python
+var level = 3
+var health = 100
+var max_health = 100
+
+func take_damage(amount):
+	if level > 2:
+		amount *= 0.5
+
+	health -= amount
+
+	if health > max_health:
+		health = max_health
+
+	if health < 0:
+		health = 0
+```
+
+这样写是错误的(在这个例子里面啦)：
+```python
+...
+health -= (amount *= 0.5*)
+```
+
+因为有更好的解决办法，就是把 amount `*=.0.5` 就好了
+
+---
+# Lesson 15: Modulo (% 余数)
+
+> modulo 不能用在小数点上
+

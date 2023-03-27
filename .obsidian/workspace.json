@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md"
               }
             }
           }
@@ -173,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,13 +185,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a16f7b643e4245b6",
+  "active": "27d1ea948a7e0072",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20230327085229.png",
+    "Pictures/Pasted image 20230327085106.png",
+    "Pictures/Pasted image 20230327084922.png",
+    "README.md",
+    "实用工具.md",
     "Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230327084135.png",
     "Pictures/Pasted image 20230327084123.png",
-    "README.md",
-    "实用工具.md",
     "Pictures/Pasted image 20230326214435.png",
     "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
     "Prompt Engineering/B - 提示工程简介.md",
@@ -200,8 +203,6 @@
     "Pictures/Pasted image 20230326160907.png",
     "Pictures/Pasted image 20230326160906.png",
     "Pictures/Pasted image 20230326160814.png",
-    "Pictures/Pasted image 20230326155200.png",
-    "Pictures/Pasted image 20230326155135.png",
     "Prompt Engineering",
     "Daily",
     "Godot_API_名字和用法/assert().md",
