@@ -268,3 +268,16 @@ func level_up():
 
 
 # Lesson 16: 2D Vectors
+
+什么是 vectors ？
+
+> Vectors 是有长度和方向的单位
+
+![[Pasted image 20230328090505.png]]
+
+godot 里，`position.x` 和 `position.y` 的数值是小数点来的，不能直接加 integer
+
+![[Pasted image 20230328092035.png]]
+
+`Vecotr2(x, y)`
+
