@@ -298,6 +298,7 @@ Use 2-3 sentences to explain the concept of prompt engineering to a high school 
 ![[Pasted image 20230327135344.png]]
 
 
+
 ### To do or not to do ? (做还是不做？)
 
 我们在设计 Prompt 时，应该专注在该做什么，而不是画很多的笔墨专注在不该做什么，否则效果可能和我们预想的相差甚远
@@ -374,4 +375,107 @@ Mention the large language model based product mentioned in the paragraph above:
 
 `The large language model based product mentioned in the paragraph above is ChatGPT.`
 
-nice XDDD
+但这一整行句子 ChatGPT 都给出不是很准确的结果，需要用到一些其他的技巧来获得更加准确的结果
+
+###### ChatGPT
+
+![[Pasted image 20230328124320.png]]
+
+###### Sage
+
+![[Pasted image 20230328124418.png]]
+
+###### Claude
+
+claude 效果不大好
+
+![[Pasted image 20230328124500.png]]
+![[Pasted image 20230328124510.png]]
+
+###### Dragonfly
+
+Dragonfly 赢过 Claude 了 XDDD
+
+![[Pasted image 20230328124551.png]]
+
+
+
+### Question Answering (问答)
+
+```txt
+Answer the question based on the context below. Keep the answer short and concise. Respond "Unsure about answer" if not sure about the answer.
+
+Context: Teplizumab traces its roots to a New Jersey drug company called Ortho Pharmaceutical. There, scientists generated an early version of the antibody, dubbed OKT3. Originally sourced from mice, the molecule was able to bind to the surface of T cells and limit their cell-killing potential. In 1986, it was approved to help prevent organ rejection after kidney transplants, making it the first therapeutic antibody allowed for human use.
+
+Question: What was OKT3 originally sourced from?
+Answer:
+```
+
+emm...这个反而就很有效，全部的模型回复都是一致的
+
+###### ChatGPT
+
+![[Pasted image 20230328124943.png]]
+
+###### Sage
+
+一样，就不放照片了...
+
+###### Claude
+
+same ...
+
+###### Dragonfly
+
+唯独 Dragonfly 是用中文回答的 XDDD
+
+![[Pasted image 20230328125018.png]]
+
+### Text Classification (文字分类)
+
+```txt
+Classify the text into neutral, negative or positive.Text: I think the food was okay.
+
+Sentiment:
+```
+
+`Neutral`
+
+###### ChatGPT
+
+chatgpt 稍微比较配合 XDDD
+
+![[Pasted image 20230328125551.png]]
+
+###### Sage
+
+需要更多的例子
+
+![[Pasted image 20230328125621.png]]
+
+###### Claude
+
+答案是对的，但回答太长了
+
+![[Pasted image 20230328125639.png]]
+
+###### Dragonfly
+
+用中文回答的简介明了啊
+
+![[Pasted image 20230328125700.png]]
+
+
+
+也是吼，我们是很挑的 XDDD 我不要 `Neutral` , 我要的是 `neutral`, 为了实现这个伟大的理想，需要给语言模型更多的例子
+
+```txt
+Classify the text into neutral, negative or positive.
+Text: I think the vacation is okay.
+Sentiment: neutral
+Text: I think the food was okay.
+Sentiment:
+```
+
+`neutral`
+
