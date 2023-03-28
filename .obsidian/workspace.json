@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实用工具.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实用工具.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实用工具.md"
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md"
               }
             }
           }
@@ -209,8 +209,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "67a6918e5ff4f5dd",
+  "active": "27d1ea948a7e0072",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20230328114229.png",
+    "实用工具.md",
     "Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230328113302.png",
     "Pictures/Pasted image 20230328092035.png",
@@ -219,7 +221,6 @@
     "C++/A - 终于来学 C++ 了。。.md",
     "Pictures/Pasted image 20230328080014.png",
     "C++/B - C++ 简介.md",
-    "实用工具.md",
     "C++",
     "Prompt Engineering/B - 提示工程简介.md",
     "Pictures/Pasted image 20230327135344.png",
