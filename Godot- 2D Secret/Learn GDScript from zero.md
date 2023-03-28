@@ -281,3 +281,27 @@ godot 里，`position.x` 和 `position.y` 的数值是小数点来的，不能�
 
 `Vecotr2(x, y)`
 
+# Lesson 17: While Loop
+
+Godot 里貌似没有什么很复杂的循环，比较多看到的是 For 和 While 循环
+
+```javascript
+var i = 0
+while i < 4:
+	print(i)
+	i += 1
+```
+
+`while` loop 很好用，但要是忘了停止的话那可就完蛋了，它会一直循环一直循环下去知道电脑爆掉
+
+### While loop 什么时候要用？？
+
+那么既然 `while` loop 会导致电脑当机，为什么还要用呢？不是还要更安全的 `for` loop 吗？
+
+emm...`while` loop 的用处就是当我们不知道我们要运行这几行代码多少次的时候使用，毕竟用 `for` 时需要指定循环的次数呀
+
+这些是 `while` 的用处：
+
+![[Pasted image 20230328113302.png]]
+
+
