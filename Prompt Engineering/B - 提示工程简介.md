@@ -479,3 +479,57 @@ Sentiment:
 
 `neutral`
 
+###### ChatGPT
+
+效果一样
+
+###### Sage
+
+啊啊啊啊有点不听话哦
+
+![[Pasted image 20230328130035.png]]
+
+###### Claude
+
+拜托别回复那么长啊。。。
+
+![[Pasted image 20230328130153.png]]
+
+###### Dragonfly
+
+为什么回答的如此一致。。
+
+![[Pasted image 20230328130205.png]]
+
+```txt
+Classify the text into nutral, negative or positive.
+Text: I think the vacation is okay.
+Sentiment:
+```
+
+`Neutral`
+
+上面的有什么问题吗？有啊，开头第一句的 nutral 拼写有错误
+
+不过看起来拼写错误影响不到这几个语言模型呢
+
+###### ChatGPT
+
+![[Pasted image 20230328130450.png]]
+
+###### Sage
+
+![[Pasted image 20230328130459.png]]
+
+###### Claude
+
+![[Pasted image 20230328130519.png]]
+
+###### Dragonfly
+
+![[Pasted image 20230328130536.png]]
+
+
+
+### Conversation (对话)
+
