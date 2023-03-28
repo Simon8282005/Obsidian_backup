@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prompt Engineering/B - 提示工程简介.md",
+                "file": "实用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prompt Engineering/B - 提示工程简介.md",
+                "file": "实用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prompt Engineering/B - 提示工程简介.md"
+                "file": "实用工具.md"
               }
             }
           }
@@ -184,8 +185,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a16f7b643e4245b6",
+  "active": "67a6918e5ff4f5dd",
   "lastOpenFiles": [
+    "Prompt Engineering/B - 提示工程简介.md",
     "Pictures/Pasted image 20230328130536.png",
     "Pictures/Pasted image 20230328130535.png",
     "Pictures/Pasted image 20230328130519.png",
@@ -196,9 +198,7 @@
     "Pictures/Pasted image 20230328130035.png",
     "Pictures/Pasted image 20230328125700.png",
     "Pictures/Pasted image 20230328125639.png",
-    "Pictures/Pasted image 20230328125621.png",
     "实用工具.md",
-    "Prompt Engineering/B - 提示工程简介.md",
     "README.md",
     "C++/A - 终于来学 C++ 了。。.md",
     "C++/C - C++ 入门.md",
