@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Prompt Engineering/B - 提示工程简介.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,33 +42,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a24c843231f4bc51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/C - C++ 入门.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27d1ea948a7e0072",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "Prompt Engineering/B - 提示工程简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "Prompt Engineering/B - 提示工程简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md"
+                "file": "Prompt Engineering/B - 提示工程简介.md"
               }
             }
           }
@@ -209,31 +184,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27d1ea948a7e0072",
+  "active": "a16f7b643e4245b6",
   "lastOpenFiles": [
-    "Pictures/Pasted image 20230328114229.png",
+    "Pictures/Pasted image 20230328123633.png",
+    "Pictures/Pasted image 20230328123622.png",
+    "Pictures/Pasted image 20230328123609.png",
+    "Pictures/Pasted image 20230328123558.png",
     "实用工具.md",
+    "Prompt Engineering/B - 提示工程简介.md",
+    "README.md",
+    "C++/A - 终于来学 C++ 了。。.md",
+    "C++/C - C++ 入门.md",
+    "Godot_API_名字和用法/assert().md",
     "Godot- 2D Secret/Learn GDScript from zero.md",
+    "Pictures/Pasted image 20230328114229.png",
     "Pictures/Pasted image 20230328113302.png",
     "Pictures/Pasted image 20230328092035.png",
     "Pictures/Pasted image 20230328090505.png",
-    "C++/C - C++ 入门.md",
-    "C++/A - 终于来学 C++ 了。。.md",
     "Pictures/Pasted image 20230328080014.png",
     "C++/B - C++ 简介.md",
     "C++",
-    "Prompt Engineering/B - 提示工程简介.md",
     "Pictures/Pasted image 20230327135344.png",
     "Pictures/Pasted image 20230327135254.png",
-    "Pictures/Pasted image 20230327135156.png",
-    "Pictures/Pasted image 20230327135011.png",
-    "Pictures/Pasted image 20230327134715.png",
-    "Pictures/Pasted image 20230327134704.png",
-    "README.md",
     "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
     "Prompt Engineering",
     "Daily",
-    "Godot_API_名字和用法/assert().md",
     "Godot- 2D Secret/游戏开发第四弹.md",
     "Godot_API_名字和用法",
     "Godot- 2D Secret/游戏设计第三弹.md",

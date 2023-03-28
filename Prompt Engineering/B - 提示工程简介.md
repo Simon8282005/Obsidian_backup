@@ -325,3 +325,53 @@ Sorry, I don't have any information about your interests. However, here's a list
 ---
 # Examples of Prompts
 
+### Text Summarization (文字摘要)
+
+```python
+Explain antibiotics
+A:
+```
+
+Ouput:
+
+`Antibiotics are a type of medication used to treat bacterial infections. They work by either killing the bacteria or preventing them from reproducing, allowing the body’s immune system to fight off the infection. Antibiotics are usually taken orally in the form of pills, capsules, or liquid solutions, or sometimes administered intravenously. They are not effective against viral infections, and using them inappropriately can lead to antibiotic resistance.`
+
+好家伙真长啊。。。但我们可以用提示来让语言模型来帮我们缩短
+
+```txt
+Antibiotics are a type of medication used to treat bacterial infections. They work by either killing the bacteria or preventing them from reproducing, allowing the body’s immune system to fight off the infection. Antibiotics are usually taken orally in the form of pills, capsules, or liquid solutions, or sometimes administered intravenously. They are not effective against viral infections, and using them inappropriately can lead to antibiotic resistance.
+
+Explain the above in one sentence:
+```
+
+`Antibiotics are medications used to treat bacterial infections by either killing the bacteria or stopping them from reproducing, but they are not effective against viruses and overuse can lead to antibiotic resistance.`
+
+###### ChatGPT
+
+![[Pasted image 20230328123558.png]]
+
+###### Sage
+
+![[Pasted image 20230328123609.png]]
+
+###### Claude
+
+![[Pasted image 20230328123622.png]]
+
+###### Dragonfly
+
+![[Pasted image 20230328123633.png]]
+
+### Information Extraction (资讯提取)
+
+让语言模型来帮我们提取信息
+
+```txt
+Author-contribution statements and acknowledgements in research papers should state clearly and specifically whether, and to what extent, the authors used AI technologies such as ChatGPT in the preparation of their manuscript and analysis. They should also indicate which LLMs were used. This will alert editors and reviewers to scrutinize manuscripts more carefully for potential biases, inaccuracies and improper source crediting. Likewise, scientific journals should be transparent about their use of LLMs, for example when selecting submitted manuscripts.
+
+Mention the large language model based product mentioned in the paragraph above:
+```
+
+`The large language model based product mentioned in the paragraph above is ChatGPT.`
+
+nice XDDD
