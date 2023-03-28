@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "4195b9f6d25f11fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/C - C++ 入门.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a24c843231f4bc51",
             "type": "leaf",
             "state": {
@@ -80,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -223,9 +211,10 @@
   },
   "active": "a24c843231f4bc51",
   "lastOpenFiles": [
-    "C++/B - C++ 简介.md",
-    "C++/C - C++ 入门.md",
     "C++/A - 终于来学 C++ 了。。.md",
+    "C++/C - C++ 入门.md",
+    "Pictures/Pasted image 20230328080014.png",
+    "C++/B - C++ 简介.md",
     "实用工具.md",
     "C++",
     "Prompt Engineering/B - 提示工程简介.md",
@@ -238,7 +227,6 @@
     "Pictures/Pasted image 20230327134545.png",
     "Pictures/Pasted image 20230327134502.png",
     "Pictures/Pasted image 20230327133955.png",
-    "Pictures/Pasted image 20230327133943.png",
     "Godot- 2D Secret/Learn GDScript from zero.md",
     "README.md",
     "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
