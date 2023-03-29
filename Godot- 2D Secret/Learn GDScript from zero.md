@@ -365,3 +365,16 @@ for i in l:
 
 ![[Pasted image 20230329113221.png]]
 
+```python
+var rectangle_sizes = [Vector2(200, 120), Vector2(140, 80), Vector2(80, 140), Vector2(200, 140)]
+
+func run():
+	for rectangle in rectangle_sizes:
+		draw_rectangle(rectangle.x, rectangle.y)
+		jump(rectangle.x + 100, 0)
+```
+
+`rectangle_sizes` 里的数据都是 `Vector2` 格式的，就是 `Vector2(x, y)`，所以我们不能直接带入进去 `draw_rectangle(length: float, height: float)` 里面，要调用  `Vector2()` 的 `x` 和 `y`  变量，像这样：
+
+`draw_rectangle(rectangle.x, rectangle.y)`
+
