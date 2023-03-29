@@ -10,3 +10,50 @@ int main() {
 }
 ```
 
+如何要添加新的一行呢，没记错的话 python 里面是用 `\n` XDDD
+
+没想到 C++ 也同理
+
+```c
+#include <iostream>
+
+int main() {
+	std::cout << "Hello World \n";
+	std::cout << "I am learning C++";
+	return 0;
+}
+```
+
+如果是两个 `\n` 会在两个句子中间创建一个空行
+
+```c
+#include <iostream>
+
+int main() {
+	std::cout << "Hello World";
+	std::cout << "I am learning C++";
+	return 0;
+}
+```
+
+Output:
+
+![[Pasted image 20230330073719.png]]
+
+### 另外一种方法
+
+如果觉得 `\n` 很麻烦的话，可以用另外一种方法
+
+```c
+#include <iostream>
+
+int main() {
+	std::cout << "Hello World" << end1;
+	std::cout << "I am learning C++";
+	return 0;
+}
+```
+
+Ohhh....原来 `\` 就是 insert 的意思呀 XDDD `\n` 就是 new line 的意思咯
+
+![[Pasted image 20230330073900.png]]
