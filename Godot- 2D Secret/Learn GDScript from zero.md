@@ -332,3 +332,12 @@ for i in range(10):
 	print(i)
 ```
 
+---
+# Lesson 18: Creating Array (数组)
+
+`range(3)` 会创建一个 0-2 的数组
+
+```python
+[0, 1, 2]
+```
+

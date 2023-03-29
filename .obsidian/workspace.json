@@ -4,83 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "bd71ea7646f5043a",
+        "id": "6640323a41e9d0ef",
         "type": "tabs",
         "children": [
           {
-            "id": "a16f7b643e4245b6",
+            "id": "e84691f3a472388c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prompt Engineering/B - 提示工程简介.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67a6918e5ff4f5dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/A - 终于来学 C++ 了。。.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c6fee30d2d34b5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/D - C++ 语法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c09c2014b8f5ce09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/E - C++ 输出.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "66dd5256c261533c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/std.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e8bf7cde6558d34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/A - 终于来学 C++ 了。。.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/D - C++ 语法.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/D - C++ 语法.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,11 +139,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/D - C++ 语法.md"
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -220,17 +160,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c6fee30d2d34b5c",
+  "active": "f79179f1bd9b6412",
   "lastOpenFiles": [
+    "README.md",
+    "Godot- 2D Secret/Learn GDScript from zero.md",
+    "Prompt Engineering/B - 提示工程简介.md",
+    "C++/A - 终于来学 C++ 了。。.md",
     "C++/E - C++ 输出.md",
-    "C++/std.md",
     "C++/D - C++ 语法.md",
+    "C++/std.md",
     "Pictures/Pasted image 20230329075255.png",
     "Pictures/Pasted image 20230329075248.png",
     "Pictures/Pasted image 20230329075225.png",
-    "C++/A - 终于来学 C++ 了。。.md",
     "实用工具.md",
-    "Prompt Engineering/B - 提示工程简介.md",
     "Pictures/Pasted image 20230328130536.png",
     "Pictures/Pasted image 20230328130535.png",
     "Pictures/Pasted image 20230328130519.png",
@@ -238,10 +180,8 @@
     "Pictures/Pasted image 20230328130450.png",
     "Pictures/Pasted image 20230328130205.png",
     "Pictures/Pasted image 20230328130153.png",
-    "README.md",
     "C++/C - C++ 入门.md",
     "Godot_API_名字和用法/assert().md",
-    "Godot- 2D Secret/Learn GDScript from zero.md",
     "C++/B - C++ 简介.md",
     "C++",
     "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
