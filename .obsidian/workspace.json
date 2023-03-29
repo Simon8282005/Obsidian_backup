@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "Daily/2023-03-29.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "Daily/2023-03-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "Daily/2023-03-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md"
+                "file": "Daily/2023-03-29.md"
               }
             }
           }
@@ -175,10 +175,10 @@
   },
   "active": "ae21a4d7bedbe829",
   "lastOpenFiles": [
+    "Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230329113221.png",
     "Pictures/Pasted image 20230329113205.png",
     "Pictures/Pasted image 20230329112337.png",
-    "Godot- 2D Secret/Learn GDScript from zero.md",
     "Daily/2023-03-29.md",
     "Daily/2023-03-16.md",
     "Untitled.md",
@@ -196,7 +196,6 @@
     "Pictures/Pasted image 20230328130535.png",
     "Pictures/Pasted image 20230328130519.png",
     "Pictures/Pasted image 20230328130459.png",
-    "Pictures/Pasted image 20230328130450.png",
     "C++/C - C++ 入门.md",
     "Godot_API_名字和用法/assert().md",
     "C++/B - C++ 简介.md",
