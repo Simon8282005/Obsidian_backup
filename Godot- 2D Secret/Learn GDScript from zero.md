@@ -319,7 +319,7 @@ emm...`while` loop 的用处就是当我们不知道我们要运行这几行代�
 
 ![[Pasted image 20230328113302.png]]
 
-# Lesson 17: For loop
+# Lesson 18: For loop
 
 以前 form 3 上 ask 时，我们同学和老师还有我自己都对 `for` 和 `while` 的差别进行了激烈的讨论，但越讨论越乱 XDDD
 
@@ -333,11 +333,35 @@ for i in range(10):
 ```
 
 ---
-# Lesson 18: Creating Array (数组)
+# Lesson 19: Creating Array (数组)
 
 `range(3)` 会创建一个 0-2 的数组
 
 ```python
 [0, 1, 2]
 ```
+
+GDScript 里的 array 很特别，一个数组里面可以有不同的数据类型
+
+![[Pasted image 20230329112337.png]]
+
+---
+# Lesson 20: Looping over Array
+
+最常用的就是和 `for` 循环一起搭配了
+
+```python
+for i in range(3):
+	print(i)
+```
+
+或者是
+
+```python
+l = [1, 5, 10]
+for i in l:
+	print(i)
+```
+
+![[Pasted image 20230329113221.png]]
 
