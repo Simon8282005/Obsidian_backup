@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prompt Engineering/B - 提示工程简介.md",
+                "file": "Daily/2023-03-29.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Daily/2023-03-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Daily/2023-03-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Daily/2023-03-29.md"
               }
             }
           }
@@ -185,15 +185,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0240c642dd74e621",
+  "active": "ae21a4d7bedbe829",
   "lastOpenFiles": [
+    "Prompt Engineering/B - 提示工程简介.md",
+    "Godot- 2D Secret/Learn GDScript from zero.md",
+    "README.md",
     "实用工具.md",
     "Prompt Engineering/Z - 贪心算法.md",
-    "Prompt Engineering/B - 提示工程简介.md",
     "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
     "Daily/2023-03-29.md",
-    "README.md",
-    "Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230329113221.png",
     "Pictures/Pasted image 20230329113205.png",
     "Pictures/Pasted image 20230329112337.png",
