@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023-03-29.md",
+                "file": "Prompt Engineering/B - 提示工程简介.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0240c642dd74e621",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023-03-29.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023-03-29.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023-03-29.md"
+                "file": "README.md"
               }
             }
           }
@@ -173,18 +185,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ae21a4d7bedbe829",
+  "active": "0240c642dd74e621",
   "lastOpenFiles": [
     "实用工具.md",
-    "README.md",
+    "Prompt Engineering/Z - 贪心算法.md",
+    "Prompt Engineering/B - 提示工程简介.md",
+    "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
     "Daily/2023-03-29.md",
+    "README.md",
     "Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230329113221.png",
     "Pictures/Pasted image 20230329113205.png",
     "Pictures/Pasted image 20230329112337.png",
     "Daily/2023-03-16.md",
-    "Untitled.md",
-    "Prompt Engineering/B - 提示工程简介.md",
     "C++/A - 终于来学 C++ 了。。.md",
     "C++/E - C++ 输出.md",
     "C++/D - C++ 语法.md",
@@ -200,7 +213,6 @@
     "Godot_API_名字和用法/assert().md",
     "C++/B - C++ 简介.md",
     "C++",
-    "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
     "Prompt Engineering",
     "Daily",
     "Godot- 2D Secret/游戏开发第四弹.md",
