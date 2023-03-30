@@ -1,4 +1,11 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "Pictures"
+  "attachmentFolderPath": "Pictures",
+  "userIgnoreFilters": [
+    "C++/",
+    "Daily/",
+    "Godot- 2D Secret/",
+    "Godot_API_名字和用法/",
+    "Prompt Engineering/"
+  ]
 }

@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023-03-30.md",
+                "file": "Daily/2023-03-31.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c41167239b6ce77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/G - C++ 变量.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,18 +44,6 @@
             }
           },
           {
-            "id": "76161e18fc895308",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/F - C++ 注释.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0240c642dd74e621",
             "type": "leaf",
             "state": {
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023-03-30.md",
+                "file": "C++/G - C++ 变量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023-03-30.md",
+                "file": "C++/G - C++ 变量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023-03-30.md"
+                "file": "C++/G - C++ 变量.md"
               }
             }
           }
@@ -196,10 +197,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e84691f3a472388c",
+  "active": "4c41167239b6ce77",
   "lastOpenFiles": [
-    "Daily/2023-03-29.md",
+    "Pictures/Pasted image 20230331074841.png",
+    "C++/std.md",
+    "C++/G - C++ 变量.md",
+    "Daily/2023-03-31.md",
     "Daily/2023-03-30.md",
+    "Daily/2023-03-29.md",
     "Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230330090853.png",
     "Pictures/Pasted image 20230330090613.png",
@@ -221,7 +226,6 @@
     "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
     "Daily/2023-03-16.md",
     "C++/D - C++ 语法.md",
-    "C++/std.md",
     "C++/C - C++ 入门.md",
     "Godot_API_名字和用法/assert().md",
     "C++/B - C++ 简介.md",
@@ -235,8 +239,6 @@
     "Godot- 2D Secret/游戏设计第一弹.md",
     "Daily/大学.md",
     "Daily/2023-03-14.md",
-    "Daily/2023-03-13.md",
-    "Daily/2023-03-15.md",
     "Untitled.canvas",
     "Obsidian_backup",
     "README.md.txt",
