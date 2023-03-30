@@ -470,3 +470,13 @@ func convert_to_world_coordinates(cell):
 
 `pop_back()` 从后面开始去除数据 （最后的先去除
 
+```python
+var crates = ["healing heart", "shield", "gems", "sword"]
+
+func run():
+	while crates:
+		crates.pop_back()
+```
+
+为了避免 `while` 循环把程序弄崩溃，就用 `while crates` 来检查 `crates` 列表里是不是还有数据，如果有，继续循环，如果没有就终止循环
+
