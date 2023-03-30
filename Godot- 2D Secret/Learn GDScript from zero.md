@@ -460,3 +460,13 @@ func convert_to_world_coordinates(cell):
 - 以此类推
 
 看来做游戏数学的 Basic 要好啊。。。
+
+---
+# Lesson 22: Appending and popping values from arrays
+
+`append()` 从后面开始添加数据 & `pop_front()` 从前面开始去除数据
+
+`array` 可以拿来当做数据的 `stack`，并且是后进先出的
+
+`pop_back()` 从后面开始去除数据 （最后的先去除
+

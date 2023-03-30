@@ -49,13 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023-03-30.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -135,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023-03-30.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023-03-30.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023-03-30.md"
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md"
               }
             }
           }
@@ -196,12 +197,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e84691f3a472388c",
+  "active": "0240c642dd74e621",
   "lastOpenFiles": [
+    "Daily/2023-03-30.md",
     "Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230330090853.png",
     "Pictures/Pasted image 20230330090613.png",
-    "Daily/2023-03-30.md",
     "README.md",
     "C++/F - C++ 注释.md",
     "C++/A - 终于来学 C++ 了。。.md",
