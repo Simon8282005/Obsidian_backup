@@ -378,3 +378,54 @@ func run():
 
 `draw_rectangle(rectangle.x, rectangle.y)`
 
+---
+# Lesson 21: Strings (句子)
+
+Godot 里面要创建一个 Strings 就像这样子就行了：
+```python
+text = "I am string"
+```
+
+甚至还能直接进行遍历：
+```python
+for i in "Robot":
+	print(i)
+```
+
+Output:
+
+```python
+R
+o
+b
+o
+t
+```
+
+上面的例子是遍历了 Strings 里的每一个字母，但要是我不想要遍历每一个字母而是每一个词呢？
+
+啊哈，列表排上用场了 XDD
+
+```javascript
+var combo = ["jump", "damage", "damage", "jump", "level_up"]
+
+for action in combo:
+	play_animation(action)
+```
+
+---
+# Lesson 22: Function that return a value
+
+### round()
+
+Godot 里已经有些 Built - in 的 function 是会回传数值的，比如 `round()` （用来进位小数点的）
+
+```javascript
+var decimal = rount(3.4)  // Output = 3
+```
+
+### lerp() ????
+
+好家伙这啥呀这是 XDDD 第一次听啊
+
+`lerp()` 作用是在两个坐标找到点，比如如果我的角色要从坐标 Vector2(0, 0) 移动到 Vector2(45, 45), 那么就需要用 `lerp()` 来找到从 0, 0 到 45, 45 之间最适合的点（全部要联成直线，是不是很像 am XDD 没错就是 am）当然，这些点的坐标都是小数点
