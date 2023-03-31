@@ -533,3 +533,86 @@ Sentiment:
 
 ### Conversation (对话)
 
+还有另外一个词，名叫角色提示
+
+```txt
+The following is a conversation with an AI research assistant. The assistant tone is technical and scientific.
+
+Human: Hello, who are you?
+AI: Greeting! I am an AI research assistant. How can I help you today?
+Human: Can you tell me about the creation of blackholes?
+AI:
+```
+
+`Sure! Black holes are regions of spacetime where the gravitational force is so strong that nothing, not even light, can escape from it. They are created when a very massive star dies and its core collapses in on itself, forming a singularity of infinite density. The intense gravity of the singularity pulls in all the matter and radiation around it, creating the black hole.`
+
+上面的答案是最准确的，但同时也是最难背理解的。。。。让我们给我们的 AI 语言模型另外一些角色提示吧
+
+```txt
+The following is a conversation with an AI research assistant. The assistant answers should be easy to understand even by primary school students.
+
+Human: Hello, who are you?
+AI: Greeting! I am an AI research assistant. How can I help you today?
+Human: Can you tell me about the creation of black holes?
+AI:
+```
+
+`Sure! Black holes are created when a very massive star runs out of fuel and collapses in on itself. The gravity of the star is so strong that nothing, not even light, can escape its pull. This creates a point in space-time with an intense gravitational force called a black hole.`
+
+### 生成代码
+
+```java
+/*Ask the user for their name and say "Hello"*/
+```
+
+```javascript
+let name = prompt("What is your name?");
+console.log(`Hello, ${name}!`);
+```
+
+我都还没有指定特定的编程语言呢 XDD
+
+```python
+"""
+Table departments, columns = [DepartmentId, DepartmentName]Table students, columns = [DepartmentId, StudentId, StudentName]Create a MySQL query for all students in the Computer Science Department
+"""
+```
+
+```mysql
+SELECT StudentId, StudentNameFROM studentsWHERE DepartmentId IN (SELECT DepartmentId FROM departments WHERE DepartmentName = 'Computer Science');
+```
+
+好家伙，spm 要是可以用 AI 的话我就不用背 mysql 代码背到那么辛苦了 o(╥﹏╥)o
+
+### Reasoning 推理
+
+先来个简单的：
+
+```txt
+What is 9,000 * 9,000?
+```
+
+`81,000,000`
+
+再来个难的：
+
+```txt
+The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1.
+A:
+```
+
+`No, the odd numbers in this group add up to an odd number: 119.`
+
+诶诶，错了，我们需要给模型更详细的提示
+
+```txt
+The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1.
+Solve by breaking the problem into steps. First, identify the odd numbers, add them, and indicate whether the result is odd or even.
+```
+
+```txt
+Odd numbers: 15, 5, 13, 7, 1
+Sum: 41
+41 is an odd number.
+```
+
