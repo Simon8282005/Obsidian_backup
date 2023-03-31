@@ -519,6 +519,32 @@ print(inventory.size())  # output = 2, 那么 max index = inventory.size() - 1
 
 啊哈，字典，python 里也有，但我就是一直会乱 XDD 真的是啊
 
+字典最常听到的就是键值对了，就是每一个 keys 都对应着一个 values:
+
+```javascript
+var dictionary = {
+	key1: value_1,
+	key2: value_2,
+	// ...
+}
+```
+
+`key` 可以是句子，数字，甚至 Vector 也行 XDD
 
 
+### 定位字典里的数据
+
+`dictionary_name[key]` 
+
+字典使用 key 来定位对应的数据，array 则是 index
+
+### 字典的原理
+
+![[Pasted image 20230331091155.png]]
+
+好家伙。。。哈希算法都用上了。。。
+
+当我们给字典一个 index，字典把它 convert 成另外一个特别的 index，并使用该 index 来写入数据进入电脑的内存里
+
+如果我们给字典两个一模一样的 key，那么原先的数值数值就会被覆盖了
 
