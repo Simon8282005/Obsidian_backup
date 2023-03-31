@@ -47,4 +47,27 @@ int x, y, z
 x = y = z = 2  // 这样就就可以，但是始终都要先定义变量
 ```
 
-# 
+---
+
+# 独特的名字
+
+每一个变量的名字应该都是唯一的，并且尽量避免单个字母的变量，因为不知道代表着什么
+
+---
+
+# 固执的变量
+
+如果不想改这个变量的数值，就用 `const`  XDDD Java 里面是 `final` 呢，but GDScript 里好像也是 `const`，但并不需要 `const var number = ...` 而是直接用 `const` 来代替 `var`，`const PI = 3.14159`
+
+但 C++ 就不能了
+
+```c
+const int pi = 3.14159
+```
+
+如果还是想要强行为有 `const` 关键字的变量赋值，compiler 会直接丢出一个 error XDD
+
+![[Pasted image 20230331075855.png]]
+
+![[Pasted image 20230331080027.png]]
+

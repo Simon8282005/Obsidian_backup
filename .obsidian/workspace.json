@@ -20,30 +20,6 @@
             }
           },
           {
-            "id": "4c41167239b6ce77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/G - C++ 变量.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae21a4d7bedbe829",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/A - 终于来学 C++ 了。。.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0240c642dd74e621",
             "type": "leaf",
             "state": {
@@ -55,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/G - C++ 变量.md",
+                "file": "Daily/2023-03-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/G - C++ 变量.md",
+                "file": "Daily/2023-03-31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/G - C++ 变量.md"
+                "file": "Daily/2023-03-31.md"
               }
             }
           }
@@ -197,11 +172,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c41167239b6ce77",
+  "active": "e84691f3a472388c",
   "lastOpenFiles": [
+    "C++/A - 终于来学 C++ 了。。.md",
+    "C++/G - C++ 变量.md",
+    "Pictures/Pasted image 20230331080027.png",
+    "Pictures/Pasted image 20230331075855.png",
     "Pictures/Pasted image 20230331074841.png",
     "C++/std.md",
-    "C++/G - C++ 变量.md",
     "Daily/2023-03-31.md",
     "Daily/2023-03-30.md",
     "Daily/2023-03-29.md",
@@ -210,16 +188,12 @@
     "Pictures/Pasted image 20230330090613.png",
     "README.md",
     "C++/F - C++ 注释.md",
-    "C++/A - 终于来学 C++ 了。。.md",
     "C++/E - C++ 输出.md",
     "Pictures/Pasted image 20230330074657.png",
     "Pictures/Pasted image 20230330074603.png",
     "Pictures/Pasted image 20230330074508.png",
     "Pictures/Pasted image 20230330074437.png",
     "Pictures/Pasted image 20230330074328.png",
-    "Pictures/Pasted image 20230330074307.png",
-    "Pictures/Pasted image 20230330073900.png",
-    "Pictures/Pasted image 20230330073757.png",
     "实用工具.md",
     "Prompt Engineering/B - 提示工程简介.md",
     "Prompt Engineering/Z - 贪心算法.md",
