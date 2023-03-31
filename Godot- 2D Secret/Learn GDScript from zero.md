@@ -480,3 +480,45 @@ func run():
 
 为了避免 `while` 循环把程序弄崩溃，就用 `while crates` 来检查 `crates` 列表里是不是还有数据，如果有，继续循环，如果没有就终止循环
 
+---
+# Lesson 23: Accessing values in arrays
+
+要定位列表里面的数据需要使用 `index` 索引
+
+`array_name[index]` 
+
+**记得记得，array 的索引是从 0 开始的**
+
+如果想定位 array 里最后第二个数据可以用 negatif 的 index，`inventory[-2]` （从最后开始算时并不是从 0 开始，别和从头开始的 index 搞混了）
+
+![[Pasted image 20230331084129.png]]
+
+### Index out of range。。。。
+
+很常会遇到这种情况，尤其是要进行循环的时候
+
+but 要怎样知道 array 的 size ？
+
+well，用 `size()` 关键字
+
+```python
+inventory = [
+	"gems",
+	"sword"
+]
+
+print(inventory.size())  # output = 2, 那么 max index = inventory.size() - 1
+```
+
+> 不一样的语言用来得到 array 的关键字也跟着不一样，python 没记错的话是用 len(list_name), Java 和 C++ 应该是用 array_name.length()
+
+
+---
+
+# Lesson 24: Creating Dictionaries
+
+啊哈，字典，python 里也有，但我就是一直会乱 XDD 真的是啊
+
+
+
+
