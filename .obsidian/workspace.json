@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023-04-01.md",
+                "file": "实用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023-04-01.md",
+                "file": "实用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023-04-01.md"
+                "file": "实用工具.md"
               }
             }
           }
@@ -184,11 +185,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e84691f3a472388c",
+  "active": "a3f86bb57b45ed12",
   "lastOpenFiles": [
+    "Daily/2023-04-01.md",
     "C++/H - C++ 输入 (User Input).md",
     "Pictures/Pasted image 20230401170108.png",
-    "Daily/2023-04-01.md",
     "实用工具.md",
     "Daily/2023-03-31.md",
     "Untitled.canvas",
