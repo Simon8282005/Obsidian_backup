@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023-04-02.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md"
+                "file": "README.md"
               }
             }
           }
@@ -185,11 +184,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "582751cc7b87eb2e",
+  "active": "e84691f3a472388c",
   "lastOpenFiles": [
+    "Daily/2023-04-02.md",
+    "Godot- 2D Secret/Learn GDScript from zero.md",
+    "Pictures/Pasted image 20230402104446.png",
+    "Pictures/Pasted image 20230402104255.png",
     "Pictures/Pasted image 20230402094959.png",
     "Pictures/Pasted image 20230402094926.png",
-    "Daily/2023-04-02.md",
     "I - C++ 数据类型 (Data Type).md",
     "Pictures/Pasted image 20230402092056.png",
     "Pictures/Pasted image 20230402091508.png",
@@ -206,12 +208,8 @@
     "Prompt Engineering/B - 提示工程简介.md",
     "Prompt Engineering/Z - 贪心算法.md",
     "README.md",
-    "Godot- 2D Secret/Learn GDScript from zero.md",
-    "Pictures/Pasted image 20230331091155.png",
-    "Pictures/Pasted image 20230331084129.png",
     "C++/A - 终于来学 C++ 了。。.md",
     "C++/G - C++ 变量.md",
-    "Pictures/Pasted image 20230331080027.png",
     "C++/std.md",
     "Daily/2023-03-30.md",
     "Daily/2023-03-29.md",
