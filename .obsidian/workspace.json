@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023-04-02.md",
+                "file": "I - C++ 数据类型 (Data Type).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,12 +184,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3f86bb57b45ed12",
+  "active": "e84691f3a472388c",
   "lastOpenFiles": [
-    "Daily/2023-03-31.md",
-    "Daily/2023-04-01.md",
-    "Daily/2023-04-02.md",
     "I - C++ 数据类型 (Data Type).md",
+    "Pictures/Pasted image 20230402092056.png",
+    "Pictures/Pasted image 20230402091508.png",
+    "Pictures/Pasted image 20230402090550.png",
+    "Daily/2023-04-02.md",
+    "Daily/2023-04-01.md",
+    "Daily/2023-03-31.md",
     "Pictures/Pasted image 20230402084922.png",
     "Pictures/Pasted image 20230402084850.png",
     "实用工具.md",
@@ -208,12 +210,9 @@
     "C++/G - C++ 变量.md",
     "Pictures/Pasted image 20230331080027.png",
     "Pictures/Pasted image 20230331075855.png",
-    "Pictures/Pasted image 20230331074841.png",
     "C++/std.md",
     "Daily/2023-03-30.md",
     "Daily/2023-03-29.md",
-    "Pictures/Pasted image 20230330090853.png",
-    "Pictures/Pasted image 20230330090613.png",
     "C++/F - C++ 注释.md",
     "C++/E - C++ 输出.md",
     "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
