@@ -197,8 +197,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d77db69490b0678e",
+  "active": "5f93a5ae0f92c845",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20230403075855.png",
+    "Pictures/Pasted image 20230403075221.png",
+    "Pictures/Pasted image 20230403075138.png",
+    "Pictures/Pasted image 20230403074718.png",
     "C++/I - C++ 数据类型 (Data Type).md",
     "C++/J - C++ 运算符.md",
     "Daily/2023-04-03.md",
@@ -221,11 +225,8 @@
     "Pictures/Pasted image 20230402092056.png",
     "Pictures/Pasted image 20230402091508.png",
     "Pictures/Pasted image 20230402090550.png",
-    "Pictures/Pasted image 20230402084922.png",
-    "Pictures/Pasted image 20230402084850.png",
     "C++/H - C++ 输入 (User Input).md",
     "Untitled 1.md",
-    "Pictures/Pasted image 20230401170108.png",
     "Untitled.canvas",
     "Prompt Engineering/B - 提示工程简介.md",
     "Prompt Engineering/Z - 贪心算法.md",
@@ -235,7 +236,6 @@
     "C++/F - C++ 注释.md",
     "C++/E - C++ 输出.md",
     "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
-    "C++/D - C++ 语法.md",
     "C++",
     "Prompt Engineering",
     "Daily",
