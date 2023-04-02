@@ -462,7 +462,7 @@ func convert_to_world_coordinates(cell):
 看来做游戏数学的 Basic 要好啊。。。
 
 ---
-# Lesson 22: Appending and popping values from arrays
+# Lesson 23: Appending and popping values from arrays
 
 `append()` 从后面开始添加数据 & `pop_front()` 从前面开始去除数据
 
@@ -481,7 +481,7 @@ func run():
 为了避免 `while` 循环把程序弄崩溃，就用 `while crates` 来检查 `crates` 列表里是不是还有数据，如果有，继续循环，如果没有就终止循环
 
 ---
-# Lesson 23: Accessing values in arrays
+# Lesson 24: Accessing values in arrays
 
 要定位列表里面的数据需要使用 `index` 索引
 
@@ -515,7 +515,7 @@ print(inventory.size())  # output = 2, 那么 max index = inventory.size() - 1
 
 ---
 
-# Lesson 24: Creating Dictionaries
+# Lesson 25: Creating Dictionaries
 
 啊哈，字典，python 里也有，但我就是一直会乱 XDD 真的是啊
 
@@ -547,4 +547,83 @@ var dictionary = {
 当我们给字典一个 index，字典把它 convert 成另外一个特别的 index，并使用该 index 来写入数据进入电脑的内存里
 
 如果我们给字典两个一模一样的 key，那么原先的数值数值就会被覆盖了
+
+---
+# Lesson 26: Looping over Dictionaries
+
+`dictionary[key]` 会得到 keys 所对应的值
+
+我们可以这样写来获得字典里面每一个item 的名字和 keys
+
+```javascript
+var inventory = {
+	"healing heart": 3,
+	"gems": 5, 
+	"swotd": 1
+}
+
+for item_name in inventory.keys():
+	print(item_name)
+```
+
+但其实如果不想要 call `.keys()` function 也是可以的
+
+```javascript
+for item_name in inventory:
+	print(item_name)
+```
+
+GDScript 知道你想要遍历一遍字典的 keys XDDD
+
+```javascript
+for item_name in inventory:
+	var item_count = inventory[item_name]
+	print(item_name + ": " + str(item_count))
+```
+
+![[Pasted image 20230402094926.png]]
+
+同理，我们也能把字典里的数据显示在我们的 UI 里
+
+![[Pasted image 20230402094959.png]]
+
+---
+# Lesson 27: Value Types
+
+数据类型
+
+如果拿 `string` 和 `int` 加在一起，会得到什么结果，肯定是出现 error，我们需要把 `int` convert 成 `string` 才能进行添加
+
+用 `str()`, `int()` ... 来 convert 数据类型
+
+### Vector2
+
+```python
+Vector2(1, 1) * 10  # return (10, 10)
+```
+
+但是，我们不能直接拿 Vector2(1, 1) + 1，这样会导致错误
+
+应该需要调用 Vector2 里的 x 和 y 的变量才能进行添加
+
+```python
+var position = Vector2f(1, 1)
+
+position.x += 1
+position.y += 1
+```
+
+### 不可思议的结果
+
+如果在数学里，你觉得下面这行代码会给出什么 output？
+
+`print(3 / 2)` 
+
+是不是 `1.5` ? 但在这个情况，会得到的结果是 `1`
+
+？？？？！！！！！！
+
+冷静冷静 XDDD 这就和我们的数据类型有关系了
+
+`print(3 / 2` 两个号码都是属于整数，电脑以为我们也
 

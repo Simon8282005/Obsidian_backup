@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "582751cc7b87eb2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "14dbffd143d175bf",
             "type": "leaf",
             "state": {
@@ -30,20 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a3f86bb57b45ed12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "I - C++ 数据类型 (Data Type).md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023-04-02.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023-04-02.md",
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023-04-02.md"
+                "file": "Godot- 2D Secret/Learn GDScript from zero.md"
               }
             }
           }
@@ -184,13 +185,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e84691f3a472388c",
+  "active": "582751cc7b87eb2e",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20230402094959.png",
+    "Pictures/Pasted image 20230402094926.png",
+    "Daily/2023-04-02.md",
     "I - C++ 数据类型 (Data Type).md",
     "Pictures/Pasted image 20230402092056.png",
     "Pictures/Pasted image 20230402091508.png",
     "Pictures/Pasted image 20230402090550.png",
-    "Daily/2023-04-02.md",
     "Daily/2023-04-01.md",
     "Daily/2023-03-31.md",
     "Pictures/Pasted image 20230402084922.png",
@@ -209,7 +212,6 @@
     "C++/A - 终于来学 C++ 了。。.md",
     "C++/G - C++ 变量.md",
     "Pictures/Pasted image 20230331080027.png",
-    "Pictures/Pasted image 20230331075855.png",
     "C++/std.md",
     "Daily/2023-03-30.md",
     "Daily/2023-03-29.md",
