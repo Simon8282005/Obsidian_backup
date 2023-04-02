@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023-04-01.md",
+                "file": "Daily/2023-04-02.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/H - C++ 输入 (User Input).md",
+                "file": "实用工具.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,13 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实用工具.md",
+                "file": "Daily/2023-04-02.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023-04-01.md",
+                "file": "Daily/2023-04-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023-04-01.md",
+                "file": "Daily/2023-04-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023-04-01.md"
+                "file": "Daily/2023-04-02.md"
               }
             }
           }
@@ -184,13 +185,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e84691f3a472388c",
+  "active": "a3f86bb57b45ed12",
   "lastOpenFiles": [
-    "C++/H - C++ 输入 (User Input).md",
-    "实用工具.md",
-    "Daily/2023-04-01.md",
-    "Pictures/Pasted image 20230401170108.png",
     "Daily/2023-03-31.md",
+    "Daily/2023-04-01.md",
+    "Daily/2023-04-02.md",
+    "I - C++ 数据类型 (Data Type).md",
+    "Pictures/Pasted image 20230402084922.png",
+    "Pictures/Pasted image 20230402084850.png",
+    "实用工具.md",
+    "C++/H - C++ 输入 (User Input).md",
+    "Untitled 1.md",
+    "Pictures/Pasted image 20230401170108.png",
     "Untitled.canvas",
     "Prompt Engineering/B - 提示工程简介.md",
     "Prompt Engineering/Z - 贪心算法.md",
@@ -210,8 +216,6 @@
     "Pictures/Pasted image 20230330090613.png",
     "C++/F - C++ 注释.md",
     "C++/E - C++ 输出.md",
-    "Pictures/Pasted image 20230330074657.png",
-    "Pictures/Pasted image 20230330074603.png",
     "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
     "Daily/2023-03-16.md",
     "C++/D - C++ 语法.md",
@@ -223,9 +227,6 @@
     "Daily",
     "Godot- 2D Secret/游戏开发第四弹.md",
     "Godot_API_名字和用法",
-    "Godot- 2D Secret/游戏设计第三弹.md",
-    "Godot- 2D Secret/游戏设计第二弹.md",
-    "Godot- 2D Secret/游戏设计第一弹.md",
     "Obsidian_backup",
     "README.md.txt",
     "New Text Document.txt",
