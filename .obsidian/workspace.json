@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "Godot/Godot- 2D Secret/Learn GDScript from zero.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K - C++ 句子 (Strings).md",
+                "file": "C++/K - C++ 句子 (Strings).md",
                 "mode": "source",
                 "source": false
               }
@@ -209,12 +209,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14dbffd143d175bf",
+  "active": "d77db69490b0678e",
   "lastOpenFiles": [
+    "Godot/Godot - Developer Edition",
+    "Godot",
     "Daily/2023-04-03.md",
     "Daily/2023-04-02.md",
     "实用工具.md",
-    "K - C++ 句子 (Strings).md",
+    "C++/K - C++ 句子 (Strings).md",
     "Pictures/Pasted image 20230404090707.png",
     "Pictures/Pasted image 20230404090700.png",
     "Pictures/Pasted image 20230404090450.png",
@@ -236,7 +238,7 @@
     "Daily/2023-03-31.md",
     "Daily/2023-03-14.md",
     "Daily/2023-03-13.md",
-    "Godot- 2D Secret/Learn GDScript from zero.md",
+    "Godot/Godot- 2D Secret/Learn GDScript from zero.md",
     "C++/H - C++ 输入 (User Input).md",
     "Untitled 1.md",
     "Untitled.canvas",
@@ -250,11 +252,11 @@
     "C++",
     "Prompt Engineering",
     "Daily",
-    "Godot_API_名字和用法",
+    "Godot/Godot_API_名字和用法",
     "Obsidian_backup",
     "README.md.txt",
     "New Text Document.txt",
     "Pictures",
-    "Godot- 2D Secret"
+    "Godot/Godot- 2D Secret"
   ]
 }
