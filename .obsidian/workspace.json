@@ -54,8 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d359a7f8ad7288ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K - C++ 句子 (Strings).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -135,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023-04-03.md",
+                "file": "K - C++ 句子 (Strings).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023-04-03.md",
+                "file": "K - C++ 句子 (Strings).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023-04-03.md"
+                "file": "K - C++ 句子 (Strings).md"
               }
             }
           }
@@ -196,11 +209,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e84691f3a472388c",
+  "active": "d359a7f8ad7288ed",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20230404090306.png",
     "实用工具.md",
-    "README.md",
+    "K - C++ 句子 (Strings).md",
     "Daily/2023-04-03.md",
+    "README.md",
     "C++/J - C++ 运算符.md",
     "Pictures/Pasted image 20230403080530.png",
     "Pictures/Pasted image 20230403080508.png",
@@ -233,7 +248,6 @@
     "C++/std.md",
     "C++/F - C++ 注释.md",
     "C++/E - C++ 输出.md",
-    "Prompt Engineering/A - 什么是 Prompt Engineering (提示工程) ？.md",
     "C++",
     "Prompt Engineering",
     "Daily",
