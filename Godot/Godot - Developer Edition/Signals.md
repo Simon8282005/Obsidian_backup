@@ -8,6 +8,6 @@
 
 ![[Pasted image 20230404120025.png]]
 
-需要释放三次信号才能 update 一次 health，那要是有上百个怪物的 health 需要 update，拿
+需要释放三次信号才能 update 一次 health，那要是有上百个怪物的 health 需要 update，那游戏可以 不用玩了
 
 ![[Pasted image 20230404120351.png]]
