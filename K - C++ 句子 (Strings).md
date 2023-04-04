@@ -65,5 +65,50 @@ int main() {
 还能改变 string 的字母诶
 
 ```c
-string my
+string my_string = "Hello";
+my_string[1] = "a"
+cout << my_string;  // Output = Hallo XDDD
+```
+
+### Special character
+
+下面这个句子会出现错误，因为 C++ 以为你放的双引号就是句子的重点了，为了解决这个问题就要用到 `\"` 了，原理和 `\n` 相同
+
+![[Pasted image 20230404090450.png]]
+
+`string txt = "We are the so-called \"Vikings\" from the north.";`
+
+![[Pasted image 20230404090700.png]]
+
+![[Pasted image 20230404090707.png]]
+
+### User Input Strings
+
+emm... `cin` 的用法在 [[H - C++ 输入 (User Input)]] 里有提到，但是，但是，只能用来读取一句句子而已
+
+就算你输入 "Simon CY", output 的结果也是 "Simon" 而已
+
+用 `getline(cin, string_variable)` 来解决这个问题
+
+```c
+string full_name
+cout << "What\'s your name ?: '";
+getline(cin, full_name);
+cout << full_name;  // Output = Simon CY
+```
+
+### Omitting Namespace （省略 Namespace）
+
+可以不用一直写 `using namespcae std;` 的，但是相对的，之后我们每一个使用到 std 库里面的函数名称都需要在前面加一个 `std::`
+
+```c
+#include <iostream>
+#include <string>
+
+// x using namespace std;
+int main {
+	std::cout << "Hello World";
+	std::string greeting = "你好世界";
+	return 0;
+}
 ```
