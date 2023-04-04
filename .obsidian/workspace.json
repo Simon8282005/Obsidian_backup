@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "37b48d4aa6070bab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Godot/Godot - Developer Edition/Signals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d359a7f8ad7288ed",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -148,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实用工具.md",
+                "file": "Godot/Godot - Developer Edition/Signals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实用工具.md",
+                "file": "Godot/Godot - Developer Edition/Signals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实用工具.md"
+                "file": "Godot/Godot - Developer Edition/Signals.md"
               }
             }
           }
@@ -209,13 +221,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d77db69490b0678e",
+  "active": "37b48d4aa6070bab",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20230404120351.png",
+    "Pictures/Pasted image 20230404120025.png",
+    "实用工具.md",
+    "Godot/Godot - Developer Edition/Signals.md",
     "Godot/Godot - Developer Edition",
     "Godot",
     "Daily/2023-04-03.md",
     "Daily/2023-04-02.md",
-    "实用工具.md",
     "C++/K - C++ 句子 (Strings).md",
     "Pictures/Pasted image 20230404090707.png",
     "Pictures/Pasted image 20230404090700.png",
@@ -228,7 +243,6 @@
     "Pictures/Pasted image 20230403080313.png",
     "Pictures/Pasted image 20230403075934.png",
     "Pictures/Pasted image 20230403075855.png",
-    "Pictures/Pasted image 20230403075221.png",
     "C++/I - C++ 数据类型 (Data Type).md",
     "Daily/2023-03-29.md",
     "Daily/2023-03-16.md",
@@ -248,7 +262,6 @@
     "C++/G - C++ 变量.md",
     "C++/std.md",
     "C++/F - C++ 注释.md",
-    "C++/E - C++ 输出.md",
     "C++",
     "Prompt Engineering",
     "Daily",
@@ -256,7 +269,6 @@
     "Obsidian_backup",
     "README.md.txt",
     "New Text Document.txt",
-    "Pictures",
-    "Godot/Godot- 2D Secret"
+    "Pictures"
   ]
 }
