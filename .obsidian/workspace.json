@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot/Godot - Developer Edition/Signals.md",
+                "file": "实用工具.md",
                 "mode": "source",
                 "source": false
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Godot/Godot - Developer Edition/Signals.md",
+                "file": "实用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Godot/Godot - Developer Edition/Signals.md",
+                "file": "实用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot/Godot - Developer Edition/Signals.md"
+                "file": "实用工具.md"
               }
             }
           }
@@ -223,10 +223,10 @@
   },
   "active": "37b48d4aa6070bab",
   "lastOpenFiles": [
+    "Godot/Godot - Developer Edition/Signals.md",
     "Pictures/Pasted image 20230404120351.png",
     "Pictures/Pasted image 20230404120025.png",
     "实用工具.md",
-    "Godot/Godot - Developer Edition/Signals.md",
     "Godot/Godot - Developer Edition",
     "Godot",
     "Daily/2023-04-03.md",
@@ -242,7 +242,6 @@
     "Pictures/Pasted image 20230403080508.png",
     "Pictures/Pasted image 20230403080313.png",
     "Pictures/Pasted image 20230403075934.png",
-    "Pictures/Pasted image 20230403075855.png",
     "C++/I - C++ 数据类型 (Data Type).md",
     "Daily/2023-03-29.md",
     "Daily/2023-03-16.md",
