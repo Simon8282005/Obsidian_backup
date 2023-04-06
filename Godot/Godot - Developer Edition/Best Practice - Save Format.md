@@ -249,7 +249,7 @@ func load_from_var(file: File) -> void:
 	position = str2var(file.get_line())
 ```
 
-调用也是三个里面最简单的了
+调用也是三个里面最简单的了，和 Godot 的文档给的例子基本一样
 
 ```python
 const SAVE_VAR := "user://sav1.sav"
