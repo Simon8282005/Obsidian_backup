@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot/Godot - Developer Edition/Signals.md",
+                "file": "Godot/Godot - Developer Edition/Best Practive - Signals.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Best Practice - Save Format.md",
+                "file": "Godot/Godot - Developer Edition/Best Practice - Save Format.md",
                 "mode": "source",
                 "source": false
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Best Practice - Save Format.md",
+                "file": "Godot/Godot - Developer Edition/Best Practice - Save Format.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Best Practice - Save Format.md",
+                "file": "Godot/Godot - Developer Edition/Best Practice - Save Format.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Best Practice - Save Format.md"
+                "file": "Godot/Godot - Developer Edition/Best Practice - Save Format.md"
               }
             }
           }
@@ -199,11 +199,11 @@
   },
   "active": "ea513c52589ac273",
   "lastOpenFiles": [
+    "Godot/Godot - Developer Edition/Best Practive - Signals.md",
+    "Godot/Godot - Developer Edition/Best Practice - Save Format.md",
     "Pictures/Pasted image 20230406082551.png",
     "Pictures/Pasted image 20230406082333.png",
     "Pictures/Pasted image 20230406082323.png",
-    "Godot/Godot - Developer Edition/Signals.md",
-    "Best Practice - Save Format.md",
     "C++/M - C++ 布尔值 (Boolean).md",
     "实用工具.md",
     "C++/J - C++ 运算符.md",
@@ -221,7 +221,6 @@
     "Pictures/Pasted image 20230404090306.png",
     "README.md",
     "Pictures/Pasted image 20230403080530.png",
-    "Pictures/Pasted image 20230403080508.png",
     "C++/I - C++ 数据类型 (Data Type).md",
     "Daily/2023-03-29.md",
     "Daily/2023-03-16.md",
