@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实用工具.md",
+                "file": "Prompt Engineering/B - 提示工程简介.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2baf63ef3253325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C - Techniques.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -136,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实用工具.md",
+                "file": "C - Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实用工具.md",
+                "file": "C - Techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实用工具.md"
+                "file": "C - Techniques.md"
               }
             }
           }
@@ -197,15 +209,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea513c52589ac273",
+  "active": "f2baf63ef3253325",
   "lastOpenFiles": [
+    "Prompt Engineering/B - 提示工程简介.md",
+    "C - Techniques.md",
+    "实用工具.md",
     "Godot/Godot - Developer Edition/Best Practice - Save Format.md",
     "Godot/Godot - Developer Edition/Best Practive - Signals.md",
     "Pictures/Pasted image 20230406082551.png",
     "Pictures/Pasted image 20230406082333.png",
     "Pictures/Pasted image 20230406082323.png",
     "C++/M - C++ 布尔值 (Boolean).md",
-    "实用工具.md",
     "C++/J - C++ 运算符.md",
     "C++/L - C++ 数学 (Math).md",
     "Pictures/Pasted image 20230404120351.png",
@@ -234,7 +248,6 @@
     "C++/H - C++ 输入 (User Input).md",
     "Untitled 1.md",
     "Untitled.canvas",
-    "Prompt Engineering/B - 提示工程简介.md",
     "Prompt Engineering/Z - 贪心算法.md",
     "C++/A - 终于来学 C++ 了。。.md",
     "C++",
