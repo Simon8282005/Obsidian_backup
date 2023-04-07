@@ -90,4 +90,5 @@ The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1.
 A: The answer is True.
 ```
 
-emm 看起来答案还是
+emm 看起来答案还是错的呢，是时候需要用另外一种更先进的方法了，那就是 CoT Chain - of - Thought (思维链)
+
