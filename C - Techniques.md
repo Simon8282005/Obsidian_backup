@@ -247,7 +247,89 @@ A:
 
 (虽然 ChatGPT 已经答对了这一题。。。XDD 但还是要了解一下这个的原理的，因为不是所有的模型都能答对呢。。）
 
-那就需要给予模型一些知识了
+那就需要给予模型一些知识了 嘛哩嘛哩哄。。。（施法中
+
+```text
+Input: Greece is larger than mexico.
+Knowledge: Greece is approximately 131,957 sq km, while Mexico is approximately 1,964,375 sq km, making Mexico 1,389% larger than Greece.
+
+Input: Glasses always fog up.
+Knowledge: Condensation occurs on eyeglass lenses when water vapor from your sweat, breath, and ambient humidity lands on a cold surface, cools, and then changes into tiny drops of liquid, forming a film that you see as fog. Your lenses will be relatively cool compared to your breath, especially when the outside air is cold.
+
+Input: A fish is capable of thinking.
+Knowledge: Fish are more intelligent than they appear. In many areas, such as memory, their cognitive powers match or exceed those of ’higher’ vertebrates including non-human primates. Fish’s long-term memories help them keep track of complex social relationships.
+
+Input: A common effect of smoking lots of cigarettes in one’s lifetime is a higher than normal chance of getting lung cancer.
+Knowledge: Those who consistently averaged less than one cigarette per day over their lifetime had nine times the risk of dying from lung cancer than never smokers. Among people who smoked between one and 10 cigarettes per day, the risk of dying from lung cancer was nearly 12 times higher than that of never smokers.
+
+Input: A rock is the same size as a pebble.
+Knowledge: A pebble is a clast of rock with a particle size of 4 to 64 millimetres based on the Udden-Wentworth scale of sedimentology. Pebbles are generally considered larger than granules (2 to 4 millimetres diameter) and smaller than cobbles (64 to 256 millimetres diameter).
+
+Input: Part of golf is trying to get a higher point total than others.
+Knowledge: This statement is incorrect. In golf, the objective is to complete a course consisting of 18 holes in as few strokes as possible. The player with the lowest number of strokes at the end of the round is the winner. There is no point system in golf and getting a higher score than others is not the goal.
+```
+
+太长？那就看中文版本的 XDD
+
+```text
+Input: Greece is larger than mexico.
+Knowledge: 希腊的面积约为131,957平方公里，而墨西哥的面积约为1,964,375平方公里，使墨西哥比希腊大了1,389％。
+
+Input: Glasses always fog up.
+Knowledge: 当汗水、呼吸和周围湿度中的水蒸气落在冷表面上时，会发生凝结，冷却并变成微小的液滴，形成雾。你的镜片相对于你的呼吸会比较冷，特别是在外部空气寒冷时。
+
+Input: A fish is capable of thinking.
+Knowledge: 鱼比它们看起来更聪明。在许多领域，如记忆力，它们的认知能力与或超过其他“高级”脊椎动物，包括非人类灵长类动物。鱼的长期记忆帮助它们追踪复杂的社交关系。
+
+Input: A common effect of smoking lots of cigarettes in one’s lifetime is a higher than normal chance of getting lung cancer.
+Knowledge: 那些在一生中平均每天吸烟不到一支的人，患肺癌的风险比从未吸烟的人高九倍。在每天吸烟一到十支的人中，患肺癌的风险几乎比从未吸烟的人高12倍。
+
+Input: A rock is the same size as a pebble.
+Knowledge: 碎石是指根据沉积学的Udden-Wentworth比例尺，粒径为4至64毫米的岩石碎屑。 碎石通常被认为比颗粒（直径2至4毫米）大，比卵石（直径64至256毫米）小。
+
+Input: Part of golf is trying to get a higher point total than others.
+Knowledge: 这句话是不正确的。在高尔夫球中，目标是在18个球洞的规定范围内尽可能少地挥杆。在回合结束时，杆数最少的球员获胜。高尔夫球中没有积分制度，得到比其他人更高的分数不是目标。
+```
+
+### 其他的例子
+
+```
+问题：高尔夫球的一部分是试图比其他人获得更高的分数。是或否？  
+  
+知识：高尔夫球的目标是以最少的杆数打完一组洞。一般一场高尔夫球赛包括18个洞。每个洞在标准高尔夫球场上打一次。每一杆都算一分，总杆数用于确定比赛的获胜者。  
+  
+解释和答案：
+```
+
+```
+否。高尔夫球的目标是以最少的杆数打完一组洞，每一杆都算一分，总杆数用于确定比赛的获胜者。因此，高尔夫球的一部分是试图比其他人获得更低的分数。
+```
+
+第二次回答的时候没有那么自信了 XDD
+
+```
+问题：高尔夫球的一部分是试图比其他人获得更高的分数。是或否？  
+  
+知识：高尔夫球是一项需要精密球杆技术的运动，参赛选手（或高尔夫球手）使用多种类型的球杆将球打进球场上的一系列洞中，以最少的杆数完成比赛。目标是用最少的杆数完成比赛，得分是通过计算每个洞上的杆数总和得出的。得分最低的球员获胜。  
+  
+解释和答案：
+```
+
+```
+回答：否。高尔夫球的目标是用最少的杆数完成比赛，得分是通过计算每个洞上的杆数总和得出的。因此，高尔夫球的一部分是试图比其他人获得更低的分数，得分最低的球员获胜
+```
+
+---
+# Automatic Prompt Engineer (APE) 自动优化提示
+
+这里先挖一个坑，之后再去补回来 XDDD 貌似有难度呢
+
+[Automatic Prompt Engineer APE](https://promptingguide.azurewebsites.net/techniques/ape)
 
 
+---
+# Active Prompt
 
+![[Pasted image 20230408111849.png]]
+
+> 以下是方法的示意圖。第一步是使用LLM查詢帶有或不帶有一些CoT示範。對於一組訓練問題，產生_k_個可能的答案。基於_k_個答案計算不確定度度量（使用不一致性）。選擇最不確定的問題由人類進行註釋。然後使用新的註釋示範來推斷每個問題。
