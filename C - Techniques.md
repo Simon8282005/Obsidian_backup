@@ -1,4 +1,4 @@
-### Zero - shot prompt
+# Zero - shot prompt
 
 zero - shot 指的就是没有任何的提示，就让 LLMs 来执行任务，现在的 LLMs 经过很多次的迭代已经能够很好的处理这一类型的任务了（当然如果处理不了还是需要给上几条提示的）
 
@@ -14,7 +14,7 @@ Output:
 neutral
 ```
 
-### Few - shot prompt (少量樣本提示)
+# Few - shot prompt (少量樣本提示)
 
 为了让 LLMs 能处理更加复杂的任务，出现了 Few - shot prompt 的命令，根据任务的复杂程度也能给与不同行数的的提示(3 行，5行，甚至更多)
 
@@ -34,7 +34,7 @@ When we won the game, we all started to farduddle in celebration.
 ```
 
 
-#### 统一标签
+### 统一标签
 还有一种就是标签了，还记得之前学的让 LLMs 判断那一个句子是 positive，negative 和 neutral 的例子吗：
 
 ```
@@ -48,7 +48,7 @@ Output = Negative
 
 上面的 `Negative`, `Positive` 和 `neutral` 就是所谓的标签了，但是不一定全部的标签都要那么统一，但最重要的是有标签，有了标签，能让 LLMs 输出的结果产生很大的改变
 
-#### 随机标签
+### 随机标签
 
 ```
 Positive This is awesome!
@@ -91,4 +91,21 @@ A: The answer is True.
 ```
 
 emm 看起来答案还是错的呢，是时候需要用另外一种更先进的方法了，那就是 CoT Chain - of - Thought (思维链)
+
+不过经过测试，ChatGPT，Claude 和 Dragonfly 都给出了正确的答案，但是唯独 Sage 给出了错的答案呢。。。
+
+# Chain of Thought
+
+可以理解成在再给出提示的命令时也顺便把详细的解答过程写出来，让模型自行学习
+
+![[Pasted image 20230408084438.png]]
+
+### Sage
+
+终于答对了 XDDD
+
+![[Pasted image 20230408085212.png]]
+
+## zero-shot COT Prompting
+
 

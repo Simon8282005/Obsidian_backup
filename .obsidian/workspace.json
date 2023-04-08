@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实用工具.md",
+                "file": "C - Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实用工具.md",
+                "file": "C - Techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实用工具.md"
+                "file": "C - Techniques.md"
               }
             }
           }
@@ -209,11 +209,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14dbffd143d175bf",
+  "active": "f2baf63ef3253325",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20230408085212.png",
+    "Pictures/Pasted image 20230408084840.png",
+    "Pictures/Pasted image 20230408084438.png",
+    "实用工具.md",
     "C - Techniques.md",
     "Prompt Engineering/B - 提示工程简介.md",
-    "实用工具.md",
     "Godot/Godot - Developer Edition/Best Practice - Save Format.md",
     "Godot/Godot - Developer Edition/Best Practive - Signals.md",
     "Pictures/Pasted image 20230406082551.png",
@@ -232,9 +235,7 @@
     "Pictures/Pasted image 20230404090707.png",
     "Pictures/Pasted image 20230404090700.png",
     "Pictures/Pasted image 20230404090450.png",
-    "Pictures/Pasted image 20230404090306.png",
     "README.md",
-    "Pictures/Pasted image 20230403080530.png",
     "C++/I - C++ 数据类型 (Data Type).md",
     "Daily/2023-03-29.md",
     "Daily/2023-03-16.md",
@@ -249,7 +250,6 @@
     "Untitled 1.md",
     "Untitled.canvas",
     "Prompt Engineering/Z - 贪心算法.md",
-    "C++/A - 终于来学 C++ 了。。.md",
     "C++",
     "Prompt Engineering",
     "Daily",
