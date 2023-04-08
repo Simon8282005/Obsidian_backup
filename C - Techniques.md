@@ -98,6 +98,10 @@ emm 看起来答案还是错的呢，是时候需要用另外一种更先进的�
 
 可以理解成在再给出提示的命令时也顺便把详细的解答过程写出来，让模型自行学习
 
+> 将思考和推理的过程也教给模型，帮助模型提高其推理能力
+> 
+> 该方法在数学推理测试集GSM8K上，将指标提升到了60.1%左右。
+
 ![[Pasted image 20230408084438.png]]
 
 ### Sage
@@ -114,7 +118,30 @@ emm 看起来答案还是错的呢，是时候需要用另外一种更先进的�
 
 ![[Pasted image 20230408085540.png]]
 
-注意看，在最后一行时加入了 `Let's think step by step` 的句子
+注意看，在最后一行时加入了 `Let's think step by step` 的句子，模型会输出思考的过程
+
+emmm。。。看了知乎大神的文章后发现，这个方法其实有分成两步：
+
+### 第一步
+
+加上一句 `Let's think stepj by step`，已让模型输出思考推理的过程，像这样：
+
+```text
+---模型的输入：---
+Q: Joe平均每分钟出拳25次。一场战斗持续5轮，每轮3分钟。他打了多少拳？
+A: 让我们一步一步地思考。
+
+---模型的输出：---
+一分钟内，乔出拳25次。
+三分钟内，乔出拳3*25=75次。
+在五个回合中，乔出拳5*75=375次。
+```
+
+### 第二步
+
+在第一步模型输出的基础上，我们像让模型的答案为数字而已，因此需要加上 `So, the answer (arabic number) is` ...
+
+模型最后的答案将会是 375
 
 ### ChatGPT
 
@@ -139,7 +166,17 @@ Dragonfly 还是错了呢。。。
 ---
 # Self-Consistency 自我一致性
 
-我的理解是，和 Few - shot prompt 是差不多的，提供的例子也有一致性
+我的理解是，和 Few - shot prompt 是差不多的，提供的例子也有一致性 (啊这。。。理解有误呢 XDD)
+
+> 该方法主要利用的是模型每次生成的结果都不是完全相同的这个性质。
+> 
+> CoT prompting 是预测出一个结果就直接使用这个结果；而 self-consistency 就是先用 CoT prompting 方法预测出多个结果，然后选择预测出频次最多的那个结果
+
+该方法在数学推理测试集GSM8K上，将指标提升到了74.4%左右。
+
+![[Pasted image 20230408103255.png]]
+
+> CoT prompting 是预测出一个结果就直接使用这个结果；而 self-consistency 就是先用 CoT prompting 方法预测出多个结果，然后选择预测出频次最多的那个结果。(**使用产生的结果选择最一致的答案**)
 
 ### Claude
 
@@ -153,4 +190,64 @@ Dragonfly 还是错了呢。。。
 
 ![[Pasted image 20230408090852.png]]
 
- 
+### 例子
+
+```text
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done,there will be 21 trees. How many trees did the grove workers plant today?
+
+A: We start with 15 trees. Later we have 21 trees. The difference must be the number of trees they planted. So, they must have planted 21 - 15 = 6 trees. The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: There are 3 cars in the parking lot already. 2 more arrive. Now there are 3 + 2 = 5 cars. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Leah had 32 chocolates and Leah’s sister had 42. That means there were originally 32 + 42 = 74 chocolates. 35 have been eaten. So in total they still have 74 - 35 = 39 chocolates. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?
+
+A: Jason had 20 lollipops. Since he only has 12 now, he must have given the rest to Denny. The number of lollipops he has given to Denny must have been 20 - 12 = 8 lollipops. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: He has 5 toys. He got 2 from mom, so after that he has 5 + 2 = 7 toys. Then he got 2 more from dad, so in total he has 7 + 2 = 9 toys. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: There are 4 days from monday to thursday. 5 computers were added each day. That means in total 4 * 5 = 20 computers were added. There were 9 computers in the beginning, so now there are 9 + 20 = 29 computers. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Michael initially had 58 balls. He lost 23 on Tuesday, so after that he has 58 - 23 = 35 balls. On Wednesday he lost 2 more so now he has 35 - 2 = 33 balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: She bought 5 bagels for $3 each. This means she spent 5 * 3 = $<<5*3=15>>15. She started with $23 and spent $15, so she has $23 - $15 = $<<23-15=8>>8 left. The answer is $8. 
+
+Q: When I was 6 my sister was half my age. Now I’m 70 how old is my sister?
+
+A: 
+```
+
+`When you were 6, your sister was half your age, so she was 6 / 2 = 3 years old. Now, you are 70 years old, and your sister is 70 - (6 - 3) = 67 years old. The answer is 67.`
+
+原理是从多个结果里拿出最具一致性的答案，不过这个例子很长啊 XDD
+
+---
+# 產生知識提示
+
+![[Pasted image 20230408105056.png]]
+
+> 生成用作提示的知识
+
+`高尔夫的一部分是试图获得比其他人更高的得分总数。是或不是？`
+
+`是的，高尔夫的一部分是试图获得比其他人更高的得分总数。`
+
+(虽然 ChatGPT 已经答对了这一题。。。XDD 但还是要了解一下这个的原理的，因为不是所有的模型都能答对呢。。）
+
+那就需要给予模型一些知识了
+
+
+
