@@ -78,9 +78,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "62f93ba0e51f1515",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "O - C++ Switch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1cc710c117fcb31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "P - C++ Loops.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -160,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实用工具.md",
+                "file": "P - C++ Loops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实用工具.md",
+                "file": "P - C++ Loops.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实用工具.md"
+                "file": "P - C++ Loops.md"
               }
             }
           }
@@ -221,11 +245,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f80ef7e9d8190803",
+  "active": "c1cc710c117fcb31",
   "lastOpenFiles": [
-    "README.md",
+    "Pictures/Untitled 1.png",
+    "Pictures/Untitled.png",
+    "O - C++ Switch.md",
+    "P - C++ Loops.md",
     "实用工具.md",
-    "N - Conditions.md",
+    "README.md",
+    "C++/N - Conditions.md",
     "Pictures/Pasted image 20230408170044.png",
     "Pictures/Pasted image 20230408170030.png",
     "C++/C - C++ 入门.md",
@@ -239,7 +267,6 @@
     "Prompt Engineering/Z - 贪心算法.md",
     "Pictures/Pasted image 20230408103255.png",
     "Pictures/Pasted image 20230408090852.png",
-    "Pictures/Pasted image 20230408090823.png",
     "Prompt Engineering/B - 提示工程简介.md",
     "Godot/Godot - Developer Edition/Best Practice - Save Format.md",
     "Godot/Godot - Developer Edition/Best Practive - Signals.md",
@@ -258,8 +285,6 @@
     "Daily/2023-04-01.md",
     "Daily/2023-03-31.md",
     "Daily/2023-03-14.md",
-    "Daily/2023-03-13.md",
-    "Godot/Godot- 2D Secret/Learn GDScript from zero.md",
     "Untitled.canvas",
     "C++",
     "Prompt Engineering",
