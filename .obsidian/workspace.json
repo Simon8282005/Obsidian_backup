@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2d4761c89ae31fe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "R - C++ Arrays.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -160,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Q - C++ Break && Continue.md",
+                "file": "R - C++ Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Q - C++ Break && Continue.md",
+                "file": "R - C++ Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Q - C++ Break && Continue.md"
+                "file": "R - C++ Arrays.md"
               }
             }
           }
@@ -221,15 +233,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e06370f63af3b81c",
+  "active": "2d4761c89ae31fe6",
   "lastOpenFiles": [
+    "C++/I - C++ 数据类型 (Data Type).md",
+    "R - C++ Arrays.md",
+    "C++/P - C++ Loops.md",
+    "C++/Q - C++ Break && Continue.md",
     "Pictures/Pasted image 20230411082721.png",
     "Pictures/Pasted image 20230411082613.png",
     "Pictures/Pasted image 20230411082456.png",
     "Pictures/Pasted image 20230411082007.png",
     "Pictures/Pasted image 20230411081926.png",
-    "C++/P - C++ Loops.md",
-    "C++/Q - C++ Break && Continue.md",
     "Pictures/Untitled 1.png",
     "Pictures/Untitled.png",
     "C++/O - C++ Switch.md",
@@ -242,7 +256,6 @@
     "C++/M - C++ 布尔值 (Boolean).md",
     "Prompt Engineering/C - Techniques.md",
     "Pictures/Pasted image 20230408113543.png",
-    "Pictures/Pasted image 20230408113033.png",
     "Prompt Engineering/Z - 贪心算法.md",
     "Prompt Engineering/B - 提示工程简介.md",
     "Godot/Godot - Developer Edition/Best Practice - Save Format.md",
@@ -254,7 +267,6 @@
     "Daily/2023-04-03.md",
     "Daily/2023-04-02.md",
     "C++/K - C++ 句子 (Strings).md",
-    "C++/I - C++ 数据类型 (Data Type).md",
     "Daily/2023-03-29.md",
     "Daily/2023-03-16.md",
     "Daily/2023-03-30.md",

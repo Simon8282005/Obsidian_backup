@@ -42,9 +42,9 @@ for (int i = 1; i <= 2; ++i) {
 emm…这是啥呀 XDDD
 
 ```cpp
-****for (type variableName : arrayName) {
+for (type variableName : arrayName) {
   // code block to be executed
-}****
+}
 ```
 
 作用是拿来遍历列表（array）或者是其他的数据集
