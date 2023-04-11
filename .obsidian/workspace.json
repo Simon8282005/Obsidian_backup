@@ -56,18 +56,6 @@
             }
           },
           {
-            "id": "f2baf63ef3253325",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/M - C++ 布尔值 (Boolean).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f80ef7e9d8190803",
             "type": "leaf",
             "state": {
@@ -80,31 +68,19 @@
             }
           },
           {
-            "id": "62f93ba0e51f1515",
+            "id": "e06370f63af3b81c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "O - C++ Switch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1cc710c117fcb31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "P - C++ Loops.md",
+                "file": "C++/Q - C++ Break && Continue.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -184,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "P - C++ Loops.md",
+                "file": "C++/Q - C++ Break && Continue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "P - C++ Loops.md",
+                "file": "C++/Q - C++ Break && Continue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "P - C++ Loops.md"
+                "file": "C++/Q - C++ Break && Continue.md"
               }
             }
           }
@@ -245,12 +221,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c1cc710c117fcb31",
+  "active": "d77db69490b0678e",
   "lastOpenFiles": [
+    "C++/P - C++ Loops.md",
+    "C++/Q - C++ Break && Continue.md",
     "Pictures/Untitled 1.png",
     "Pictures/Untitled.png",
-    "O - C++ Switch.md",
-    "P - C++ Loops.md",
+    "C++/O - C++ Switch.md",
     "实用工具.md",
     "README.md",
     "C++/N - Conditions.md",
@@ -266,7 +243,6 @@
     "Pictures/Pasted image 20230408105056.png",
     "Prompt Engineering/Z - 贪心算法.md",
     "Pictures/Pasted image 20230408103255.png",
-    "Pictures/Pasted image 20230408090852.png",
     "Prompt Engineering/B - 提示工程简介.md",
     "Godot/Godot - Developer Edition/Best Practice - Save Format.md",
     "Godot/Godot - Developer Edition/Best Practive - Signals.md",
