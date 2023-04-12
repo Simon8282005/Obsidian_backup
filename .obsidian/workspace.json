@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023-04-03.md",
+                "file": "实用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023-04-03.md",
+                "file": "实用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023-04-03.md"
+                "file": "实用工具.md"
               }
             }
           }
@@ -233,8 +233,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d77db69490b0678e",
+  "active": "2d4761c89ae31fe6",
   "lastOpenFiles": [
+    "Daily/2023-04-03.md",
     "C++/R - C++ Arrays.md",
     "C++/I - C++ 数据类型 (Data Type).md",
     "C++/P - C++ Loops.md",
@@ -264,7 +265,6 @@
     "C++/L - C++ 数学 (Math).md",
     "Godot/Godot - Developer Edition",
     "Godot",
-    "Daily/2023-04-03.md",
     "Daily/2023-04-02.md",
     "C++/K - C++ 句子 (Strings).md",
     "Daily/2023-03-29.md",
