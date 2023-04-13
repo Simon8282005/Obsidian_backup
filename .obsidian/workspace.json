@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e84691f3a472388c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/2023-04-03.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "14dbffd143d175bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "实用工具.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56188400c6604c1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Godot/Godot - Developer Edition/Best Practive - Signals.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,43 +32,31 @@
             }
           },
           {
-            "id": "f80ef7e9d8190803",
+            "id": "918aedd7e6668bf1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实用工具.md",
+                "file": "C++/S - C++ Structures (struct).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e06370f63af3b81c",
+            "id": "8111a44928afde52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Q - C++ Break && Continue.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d4761c89ae31fe6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实用工具.md",
+                "file": "C++/T - C++ References 参考.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -172,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实用工具.md",
+                "file": "C++/T - C++ References 参考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实用工具.md",
+                "file": "C++/T - C++ References 参考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实用工具.md"
+                "file": "C++/T - C++ References 参考.md"
               }
             }
           }
@@ -233,8 +197,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d4761c89ae31fe6",
+  "active": "8111a44928afde52",
   "lastOpenFiles": [
+    "C++/S - C++ Structures (struct).md",
+    "C++/T - C++ References 参考.md",
+    "Pictures/Pasted image 20230413080749.png",
+    "Pictures/Pasted image 20230413080726.png",
+    "Pictures/Pasted image 20230413080536.png",
+    "实用工具.md",
     "Daily/2023-04-03.md",
     "C++/R - C++ Arrays.md",
     "C++/I - C++ 数据类型 (Data Type).md",
@@ -248,15 +218,11 @@
     "Pictures/Untitled 1.png",
     "Pictures/Untitled.png",
     "C++/O - C++ Switch.md",
-    "实用工具.md",
     "README.md",
     "C++/N - Conditions.md",
-    "Pictures/Pasted image 20230408170044.png",
-    "Pictures/Pasted image 20230408170030.png",
     "C++/C - C++ 入门.md",
     "C++/M - C++ 布尔值 (Boolean).md",
     "Prompt Engineering/C - Techniques.md",
-    "Pictures/Pasted image 20230408113543.png",
     "Prompt Engineering/Z - 贪心算法.md",
     "Prompt Engineering/B - 提示工程简介.md",
     "Godot/Godot - Developer Edition/Best Practice - Save Format.md",
@@ -271,8 +237,6 @@
     "Daily/2023-03-16.md",
     "Daily/2023-03-30.md",
     "Daily/2023-03-15.md",
-    "Daily/2023-04-01.md",
-    "Daily/2023-03-31.md",
     "Untitled.canvas",
     "C++",
     "Prompt Engineering",
