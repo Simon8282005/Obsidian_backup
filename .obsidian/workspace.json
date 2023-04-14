@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/S - C++ Structures (struct).md",
+                "file": "C++/T - C++ References 参考.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "415232bf003f95e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/U - C++ Pointer 指针.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Godot/Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "C++/T - C++ References 参考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Godot/Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "C++/T - C++ References 参考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot/Godot- 2D Secret/Learn GDScript from zero.md"
+                "file": "C++/T - C++ References 参考.md"
               }
             }
           }
@@ -197,10 +209,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8111a44928afde52",
+  "active": "918aedd7e6668bf1",
   "lastOpenFiles": [
+    "C++/U - C++ Pointer 指针.md",
     "C++/T - C++ References 参考.md",
+    "C++/std.md",
     "C++/S - C++ Structures (struct).md",
+    "Godot/Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230413080749.png",
     "Pictures/Pasted image 20230413080726.png",
     "Pictures/Pasted image 20230413080536.png",
@@ -234,9 +249,6 @@
     "Daily/2023-04-02.md",
     "C++/K - C++ 句子 (Strings).md",
     "Daily/2023-03-29.md",
-    "Daily/2023-03-16.md",
-    "Daily/2023-03-30.md",
-    "Daily/2023-03-15.md",
     "Untitled.canvas",
     "C++",
     "Prompt Engineering",
