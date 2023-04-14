@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/T - C++ References 参考.md",
+                "file": "C++/U - C++ Pointer 指针.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/T - C++ References 参考.md",
+                "file": "C++/U - C++ Pointer 指针.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/T - C++ References 参考.md"
+                "file": "C++/U - C++ Pointer 指针.md"
               }
             }
           }
@@ -209,10 +209,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "918aedd7e6668bf1",
+  "active": "415232bf003f95e2",
   "lastOpenFiles": [
-    "C++/U - C++ Pointer 指针.md",
     "C++/T - C++ References 参考.md",
+    "C++/U - C++ Pointer 指针.md",
     "C++/std.md",
     "C++/S - C++ Structures (struct).md",
     "Godot/Godot- 2D Secret/Learn GDScript from zero.md",

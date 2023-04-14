@@ -51,6 +51,21 @@ string* ptr = &food;
 cout << *ptr;
 ```
 
+# Modify Pointer
+
+```c++
+string food = "Pizza";
+string* pointer = &food;
+
+cout << *pointer;  // Output = Pizza
+
+// Value of good also will be change
+// cause pointer store the memory address of the food variable
+*pointer = "Burger";
+
+cout << food;  // Output = Burger
+```
+
 # 总结
 
 - `&` 符号用来获取电脑的记忆体中的数据
@@ -59,3 +74,6 @@ cout << *ptr;
 
 - `string* ptr = &food;` 创建指针
 - `cout << *ptr << "\n";` dereference
+
+- 更改指针的数据时 `*pointer = "Burger";` 原变量的数值也会被更改
+- 两个变量都有同一个内存地址，因此其中一个变量修改数据另外一个变量的数据也会受影响
