@@ -56,19 +56,19 @@
             }
           },
           {
-            "id": "8111a44928afde52",
+            "id": "88ce69df3a04e881",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot/Godot- 2D Secret/Learn GDScript from zero.md",
+                "file": "记叙文.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 200
   },
   "right": {
     "id": "01689e0ac3f054c2",
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/U - C++ Pointer 指针.md",
+                "file": "记叙文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/U - C++ Pointer 指针.md",
+                "file": "记叙文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/U - C++ Pointer 指针.md"
+                "file": "记叙文.md"
               }
             }
           }
@@ -197,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,10 +210,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "415232bf003f95e2",
+  "active": "d77db69490b0678e",
   "lastOpenFiles": [
-    "C++/T - C++ References 参考.md",
     "C++/U - C++ Pointer 指针.md",
+    "记叙文.md",
+    "C++/T - C++ References 参考.md",
     "C++/std.md",
     "C++/S - C++ Structures (struct).md",
     "Godot/Godot- 2D Secret/Learn GDScript from zero.md",
@@ -248,7 +250,6 @@
     "Godot",
     "Daily/2023-04-02.md",
     "C++/K - C++ 句子 (Strings).md",
-    "Daily/2023-03-29.md",
     "Untitled.canvas",
     "C++",
     "Prompt Engineering",
