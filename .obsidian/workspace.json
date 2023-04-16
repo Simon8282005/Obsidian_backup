@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记叙文.md",
+                "file": "实用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记叙文.md",
+                "file": "实用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记叙文.md"
+                "file": "实用工具.md"
               }
             }
           }
@@ -210,14 +209,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "88ce69df3a04e881",
+  "active": "14dbffd143d175bf",
   "lastOpenFiles": [
+    "记叙文.md",
     "Pictures/Pasted image 20230414213114.png",
     "Pictures/Pasted image 20230414212102.png",
     "Pictures/Pasted image 20230414212055.png",
     "Pictures/Pasted image 20230414212044.png",
     "C++/U - C++ Pointer 指针.md",
-    "记叙文.md",
     "C++/T - C++ References 参考.md",
     "C++/std.md",
     "C++/S - C++ Structures (struct).md",
@@ -234,7 +233,6 @@
     "Pictures/Pasted image 20230411082721.png",
     "Pictures/Pasted image 20230411082613.png",
     "Pictures/Pasted image 20230411082456.png",
-    "Pictures/Pasted image 20230411082007.png",
     "C++/O - C++ Switch.md",
     "README.md",
     "C++/N - Conditions.md",
