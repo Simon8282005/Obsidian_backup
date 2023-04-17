@@ -150,3 +150,70 @@ int main() {
 }
 ```
 
+```c++
+#include <iostream>
+using namespace std;
+
+
+class computer_class {
+public:
+    void on();
+};
+
+void computer_class::on() {
+    cout << "PC starting...";
+}
+
+int main() {
+    computer_class computer;
+    computer.on();
+    return 0;
+}
+
+/*
+Output: PC starting...
+*/
+```
+
+当然，添加参数也不是不行：
+```c++
+#include <iostream>  
+using namespace std;  
+  
+class Car {  
+  public:  
+    int speed(int maxSpeed);  
+};  
+  
+int Car::speed(int maxSpeed) {  
+  return maxSpeed;  
+}  
+  
+int main() {  
+  Car myObj; // Create an object of Car  
+  cout << myObj.speed(200); // Call the method with an argument  
+  return 0;  
+}  
+
+[Try it Yourself »](https://www.w3schools.com/cpp/trycpp.asp?filename=demo_object_method_param)
+```
+
+### 小总结
+
+- 使用 `class` 关键字来创建一个 class
+- class 就是车，attributes 就是轮胎，method 几时 drive stop
+- class 就像是 template，需要在使用前用这个模板 declare 一个 object `my_template my_obj;`
+- 在 class 外面定义function，需要使用 `::`
+```c++
+class my_class {
+public:
+	void my_method();
+};
+
+void my_class::my_method() {
+	...
+}
+```
+
+明天继续学习 C++ Constructors
+
