@@ -82,7 +82,7 @@ conputer_class new_conputer;
 
 当然了，还能定义多个实例:
 
-```c++
+```cpp
 // Create a Car class with some attributes  
 class Car {  
   public:  
@@ -217,3 +217,177 @@ void my_class::my_method() {
 
 明天继续学习 C++ Constructors
 
+# Constructors
+
+好家伙，能够直接创建然后被直接呼叫的啊
+
+```c++
+class MyClass {     // The class  
+  public:           // Access specifier  
+    MyClass() {     // Constructor  
+      cout << "Hello World!";  
+    }  
+};  
+  
+int main() {  
+  MyClass myObj;    // Create an object of MyClass (this will call the constructor)  
+  return 0;  
+}
+```
+
+constructors 的特性基本上是和 function 一致的 [[V - C++ Function]] 
+
+也能设定 Parameter
+```c++
+class Car {        // The class  
+  public:          // Access specifier  
+    string brand;  // Attribute  
+    string model;  // Attribute  
+    int year;      // Attribute  
+    Car(string x, string y, int z) { // Constructor with parameters  
+      brand = x;  
+      model = y;  
+      year = z;  
+    }  
+};  
+  
+int main() {  
+  // Create Car objects and call the constructor with different values  
+  Car carObj1("BMW", "X5", 1999);  
+  Car carObj2("Ford", "Mustang", 1969);  
+  
+  // Print values  
+  cout << carObj1.brand << " " << carObj1.model << " " << carObj1.year << "\n";  
+  cout << carObj2.brand << " " << carObj2.model << " " << carObj2.year << "\n";  
+  return 0;  
+}
+```
+
+也能在 Class 的外面定义，但是记得要用 `::` 符号
+
+```c++
+class Car {        // The class  
+  public:          // Access specifier  
+    string brand;  // Attribute  
+    string model;  // Attribute  
+    int year;      // Attribute  
+    Car(string x, string y, int z); // Constructor declaration  
+};  
+  
+// Constructor definition outside the class  
+Car::Car(string x, string y, int z) {  
+  brand = x;  
+  model = y;  
+  year = z;  
+}  
+  
+int main() {  
+  // Create Car objects and call the constructor with different values  
+  Car carObj1("BMW", "X5", 1999);  
+  Car carObj2("Ford", "Mustang", 1969);  
+  
+  // Print values  
+  cout << carObj1.brand << " " << carObj1.model << " " << carObj1.year << "\n";  
+  cout << carObj2.brand << " " << carObj2.model << " " << carObj2.year << "\n";  
+  return 0;  
+}
+```
+
+# Access Specifiers 权限
+
+```c++
+class MyClass {  // The class  
+	public:        // Access specifier  
+    // class members goes here  
+};
+```
+
+一共有三种权限：
+- `public` - 能被 class 以外和以内的成员访问 （不管有没有继承同一个 class）
+- `private` - 只能被同个class 的成员访问
+- `protected` - 能从内部访问，也能被类的派生类 （后面会学到）访问
+
+```c++
+class MyClass {  
+public:    // Public access specifier  
+    int x;   // Public attribute  
+private:   // Private access specifier  
+    int y;   // Private attribute  
+};  
+  
+int main() {  
+  MyClass myObj;  
+  myObj.x = 25;  // Allowed (public)  
+  myObj.y = 50;  // Not allowed (private)  
+  return 0;  
+}
+
+// Output: error: y is private
+```
+
+默认情况下，如果我们没有指定任何一个权限，那么变量的全都都会是 private
+
+```c++
+class MyClass {  
+  int x;   // Private attribute  
+  int y;   // Private attribute  
+};
+```
+
+# Encapsulation 封装
+
+这么做的目的是为了避免敏感的数据能直接被随意修改，全部的变量都应该被定义为 private，定义 settler 和 getter 如果需要更改变量
+
+setter getter。。。hello 我们又见面了
+
+```c++
+#include <iostream>
+using namespace std;
+
+
+class Employee {
+private:
+    int salary;
+public:
+    void set_salary(int x) {
+        salary = x;
+    }
+
+    int get_salary() {
+        return salary;
+    }
+};
+
+
+int main() {
+    Employee boss;
+    boss.set_salary(10000);
+    cout << "Salary: " << boss.get_salary();
+    return 0;
+}
+
+```
+
+Output:
+
+![[Pasted image 20230418083419.png]]
+
+### 小总结
+
+- class 是能直接在内部呼叫自身的
+- 呼叫自身和 function 的使用方法一样，也能设置 parameters，也能在 class 外面定义 （记得用 `::` 符号）
+```c++
+class MyClass {     // The class  
+  public:           // Access specifier  
+    MyClass() {     // Constructor  
+      cout << "Hello World!";  
+    }  
+};  
+  
+int main() {  
+  MyClass myObj;    // Create an object of MyClass (this will call the constructor)  
+  return 0;  
+}
+```
+- 一共有三种权限，`public`, `private`, `protected`
+- `public` - 能
