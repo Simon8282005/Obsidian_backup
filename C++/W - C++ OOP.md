@@ -435,4 +435,32 @@ int main() {
 
 ## Multilevel Inheritance 多层继承
 
+除了被儿子继承，还能被孙子继承 XDD
+
+```c++
+#include <iostream>
+using namespace std;
+
+class MyClass {
+    public:
+     void myMethod() {
+        cout << "Hello\n";
+     }
+};
+
+class MyChild: public MyClass {};
+
+class MyGrandChild: public MyClass {};
+
+int main() {
+    MyChild myChild;
+    MyGrandChild myGrandChild;
+
+    myChild.myMethod();
+    myGrandChild.myMethod();
+}
+
+```
+
+![[Pasted image 20230419084627.png]]
 
