@@ -400,7 +400,43 @@ int main() {
 
 # Inheritance
 
-原来 Inheritance 是继承啊。。。
+原来 Inheritance 是继承啊。。。java 里是要用 `extends` 关键字的
+
+```java
+// 父类(Animal):  
+public class Animal {  
+	public void makeSound() {  
+		System.out.println("Animal sound");  
+	}  
+}
+
+// 子类(Dog):继承Animal类:  
+public class Dog extends Animal {  
+	public void makeSound() {  
+		System.out.println("Woof! Woof!");  
+	}  
+}
+
+// 子类(Cat):继承Animal类:  
+public class Cat extends Animal {  
+	public void makeSound() {  
+		System.out.println("Meow!");  
+	}  
+}
+
+public class Demo {  
+	public static void main(String[] args) {  
+		Animal a;  
+		Dog d = new Dog();  
+		Cat c = new Cat();
+		a = d;  
+		a.makeSound(); // prints "Woof! Woof!"  
+		
+		a = c;  
+		a.makeSound(); // prints "Meow!"  
+	}  
+}
+```
 
 C++ 里，使用 `:` 来继承 class
 
@@ -464,3 +500,35 @@ int main() {
 
 ![[Pasted image 20230419084627.png]]
 
+## Multiple Inheritance 多重继承
+
+一个子类能继承很多个父类，一样还是使用 `:` ，但之后想要继承的 class 要用 `,` 分开
+
+```c++
+// Base class  
+class MyClass {  
+  public:  
+    void myFunction() {  
+      cout << "Some content in parent class." ;  
+    }  
+};  
+  
+// Another base class  
+class MyOtherClass {  
+  public:  
+    void myOtherFunction() {  
+      cout << "Some content in another class." ;  
+    }  
+};  
+  
+// Derived class  
+class MyChildClass: public MyClass, public MyOtherClass {  // 逗号分开
+};  
+  
+int main() {  
+  MyChildClass myObj;  
+  myObj.myFunction();  
+  myObj.myOtherFunction();  
+  return 0;  
+}
+```
