@@ -532,3 +532,36 @@ int main() {
   return 0;  
 }
 ```
+
+## Access Specifiers
+
+还记得之前提到过的 `protected` 关键字吗？`public` 是可以被内部和外部 class 调用的，`private` 智能从类的内部访问，而 `protected` 不能被外部 class 调用，但是能被继承了的类调用
+
+```c++
+// Base class  
+class Employee {  
+  **protected: // Protected access specifier**  
+    int salary;  
+};  
+  
+// Derived class  
+class Programmer: public Employee {  
+  public:  
+    int bonus;  
+    void setSalary(int s) {  
+      salary = s;  
+    }  
+    int getSalary() {  
+      return salary;  
+    }  
+};  
+  
+int main() {  
+  Programmer myObj;  
+  myObj.setSalary(50000);  
+  myObj.bonus = 15000;  
+  cout << "Salary: " << myObj.getSalary() << "\n";  
+  cout << "Bonus: " << myObj.bonus << "\n";  
+  return 0;  
+}
+```
