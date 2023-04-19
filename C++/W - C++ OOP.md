@@ -392,8 +392,47 @@ int main() {
 - 一共有三种权限，`public`, `private`, `protected`
 - `public` - 能从类的外部和内部访问
 - `private` - 只能从类的内部访问
-- `protected` - 能被类的内部访问，也能被类的派生类访问
+- `protected` - 能被类的内部访问，也能被继承该类的文件使用
 - 封装是为了避免敏感的数据被随意篡改
 - 在封装过程中，全部的数据都背设定为 private，并且编写 setter 和 getter 来取得或是更改变量的值
 
-明天继续学 **派生类**
+明天继续学 **继承**
+
+# Inheritance
+
+原来 Inheritance 是继承啊。。。
+
+C++ 里，使用 `:` 来继承 class
+
+```c++
+#include <iostream>
+using namespace std;
+
+class Vehicle {
+    public:
+    string brand = "Ford";
+     void hond() {
+        cout << "Tut tut\n";
+     }
+};
+
+class Car: public Vehicle {
+    public:
+        string model = "Mustang";
+};
+
+int main() {
+    Car car;
+    car.hond();
+    cout << car.brand << " " << car.model;
+    return 0;
+}
+```
+
+![[Pasted image 20230419084113.png]]
+
+就和 Godot 里很像，继承了一个类就可以使用那个类的 method 和更改变量
+
+## Multilevel Inheritance 多层继承
+
+

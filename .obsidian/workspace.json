@@ -13,86 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实用工具.md",
+                "file": "C++/V - C++ Function.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7891cb73c1b08614",
+            "id": "78d289a4022fbf45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "V - C++ Function.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7a63bcddda6910b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "W - C++ OOP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea513c52589ac273",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prompt Engineering/B - 提示工程简介.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "918aedd7e6668bf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/T - C++ References 参考.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "415232bf003f95e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/U - C++ Pointer 指针.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88ce69df3a04e881",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记叙文.md",
+                "file": "C++/W - C++ OOP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "W - C++ OOP.md",
+                "file": "C++/W - C++ OOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "W - C++ OOP.md",
+                "file": "C++/W - C++ OOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "W - C++ OOP.md"
+                "file": "C++/W - C++ OOP.md"
               }
             }
           }
@@ -233,15 +173,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7a63bcddda6910b",
+  "active": "78d289a4022fbf45",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20230419084113.png",
+    "C++/X - C++.md",
+    "C++/V - C++ Function.md",
+    "实用工具.md",
+    "C++/W - C++ OOP.md",
     "Pictures/Pasted image 20230418083419.png",
     "Pictures/Pasted image 20230417105428.png",
-    "V - C++ Function.md",
-    "W - C++ OOP.md",
     "Pictures/Pasted image 20230417104110.png",
     "Pictures/Pasted image 20230417104103.png",
-    "实用工具.md",
     "记叙文.md",
     "Pictures/Pasted image 20230414213114.png",
     "Pictures/Pasted image 20230414212102.png",
@@ -254,7 +196,6 @@
     "Godot/Godot- 2D Secret/Learn GDScript from zero.md",
     "Pictures/Pasted image 20230413080749.png",
     "Pictures/Pasted image 20230413080726.png",
-    "Pictures/Pasted image 20230413080536.png",
     "Daily/2023-04-03.md",
     "C++/R - C++ Arrays.md",
     "C++/I - C++ 数据类型 (Data Type).md",
@@ -270,7 +211,6 @@
     "Prompt Engineering/B - 提示工程简介.md",
     "Godot/Godot - Developer Edition/Best Practice - Save Format.md",
     "Godot/Godot - Developer Edition/Best Practive - Signals.md",
-    "C++/J - C++ 运算符.md",
     "Godot/Godot - Developer Edition",
     "Godot",
     "Untitled.canvas",
