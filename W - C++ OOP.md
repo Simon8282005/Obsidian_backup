@@ -390,4 +390,10 @@ int main() {
 }
 ```
 - 一共有三种权限，`public`, `private`, `protected`
-- `public` - 能
+- `public` - 能从类的外部和内部访问
+- `private` - 只能从类的内部访问
+- `protected` - 能被类的内部访问，也能被类的派生类访问
+- 封装是为了避免敏感的数据被随意篡改
+- 在封装过程中，全部的数据都背设定为 private，并且编写 setter 和 getter 来取得或是更改变量的值
+
+明天继续学 **派生类**
