@@ -565,3 +565,52 @@ int main() {
   return 0;  
 }
 ```
+
+# Polymorphism 多态性
+
+> 同一种操作或方法可以被不同的对象执行，且能产生不同的结果
+
+同一个 method，被其他的类继承了之后可以被重写
+
+```c++
+#include <iostream>
+using namespace std;
+
+class Animal {
+public:
+    void sound() {
+        cout << "This animal make a sound\n";
+    }
+};
+
+
+class Cow : public Animal {
+public:
+    void sound() {
+        cout << "Moo mooo\n";
+    }
+};
+
+
+class Pig : public Animal {
+public:
+    void sound() {
+        cout << "Wee wee\n";
+    }
+};
+
+
+int main() {
+    Animal animal;
+    Cow cow;
+    Pig pig;
+
+    animal.sound();
+    cow.sound();
+    pig.sound();
+    return 0;
+}
+```
+
+![[Pasted image 20230420092746.png]]
+
