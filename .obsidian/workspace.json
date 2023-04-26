@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "C++/I - C++ 数据类型 (Data Type).md",
                 "mode": "source",
                 "source": false
               }
@@ -56,6 +56,7 @@
       {
         "id": "faac774e16f4240a",
         "type": "tabs",
+        "dimension": 64.18604651162791,
         "children": [
           {
             "id": "d77db69490b0678e",
@@ -95,6 +96,7 @@
       {
         "id": "e94ab78665307cca",
         "type": "tabs",
+        "dimension": 35.81395348837209,
         "children": [
           {
             "id": "76da57052d1adbaa",
@@ -124,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "C++/I - C++ 数据类型 (Data Type).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "C++/I - C++ 数据类型 (Data Type).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "C++/I - C++ 数据类型 (Data Type).md"
               }
             }
           }
@@ -187,6 +189,10 @@
   },
   "active": "8e0b2bba9a836983",
   "lastOpenFiles": [
+    "C++/H - C++ 输入 (User Input).md",
+    "C++/E - C++ 输出.md",
+    "C++/D - C++ 语法.md",
+    "README.md",
     "实用工具.md",
     "C++/Y - C++ Exceptions.md",
     "C++/X - C++ Files 文件.md",
@@ -214,15 +220,11 @@
     "C++/P - C++ Loops.md",
     "C++/Q - C++ Break && Continue.md",
     "C++/O - C++ Switch.md",
-    "README.md",
     "C++/N - Conditions.md",
     "C++/C - C++ 入门.md",
     "C++/M - C++ 布尔值 (Boolean).md",
     "Prompt Engineering/C - Techniques.md",
     "Prompt Engineering/Z - 贪心算法.md",
-    "Prompt Engineering/B - 提示工程简介.md",
-    "Godot/Godot - Developer Edition/Best Practice - Save Format.md",
-    "Godot/Godot - Developer Edition/Best Practive - Signals.md",
     "Godot/Godot - Developer Edition",
     "Godot",
     "Untitled.canvas",
