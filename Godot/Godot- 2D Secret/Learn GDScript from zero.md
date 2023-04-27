@@ -548,6 +548,10 @@ var dictionary = {
 
 如果我们给字典两个一模一样的 key，那么原先的数值数值就会被覆盖了
 
+### 获取字典的大小(长度)
+
+使用 `dictionary_name.size()` 来获取
+
 ---
 # Lesson 26: Looping over Dictionaries
 
