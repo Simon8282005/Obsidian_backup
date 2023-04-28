@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/V - C++ Function.md",
+                "file": "C++/P - C++ Loops.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/V - C++ Function.md",
+                "file": "C++/P - C++ Loops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/V - C++ Function.md",
+                "file": "C++/P - C++ Loops.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/V - C++ Function.md"
+                "file": "C++/P - C++ Loops.md"
               }
             }
           }
@@ -190,6 +190,7 @@
   "active": "8e0b2bba9a836983",
   "lastOpenFiles": [
     "C++/R - C++ Arrays.md",
+    "C++/V - C++ Function.md",
     "C++/H - C++ 输入 (User Input).md",
     "Godot/Godot- 2D Secret/Learn GDScript from zero.md",
     "C++/P - C++ Loops.md",
@@ -205,7 +206,6 @@
     "Pictures/Pasted image 20230420092746.png",
     "Pictures/Pasted image 20230419084627.png",
     "Pictures/Pasted image 20230419084113.png",
-    "C++/V - C++ Function.md",
     "Pictures/Pasted image 20230418083419.png",
     "Pictures/Pasted image 20230417105428.png",
     "Pictures/Pasted image 20230417104110.png",
