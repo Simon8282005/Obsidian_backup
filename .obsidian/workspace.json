@@ -23,28 +23,12 @@
             "id": "78d289a4022fbf45",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/X - C++ Files 文件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e0b2bba9a836983",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/O - C++ Switch.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,7 +40,7 @@
       {
         "id": "faac774e16f4240a",
         "type": "tabs",
-        "dimension": 64.18604651162791,
+        "dimension": 42.64194669756663,
         "children": [
           {
             "id": "d77db69490b0678e",
@@ -104,7 +88,7 @@
       {
         "id": "e94ab78665307cca",
         "type": "tabs",
-        "dimension": 35.81395348837209,
+        "dimension": 57.358053302433376,
         "children": [
           {
             "id": "76da57052d1adbaa",
@@ -134,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/O - C++ Switch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/O - C++ Switch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "C++/O - C++ Switch.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -195,20 +175,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e0b2bba9a836983",
+  "active": "78d289a4022fbf45",
   "lastOpenFiles": [
+    "README.md",
+    "While Loop.md",
+    "Real reference.md",
+    "实用工具.md",
+    "记叙文.md",
+    "C++/V - C++ Function.md",
+    "C++/O - C++ Switch.md",
     "Pictures/Pasted image 20230429161848.png",
     "C++/P - C++ Loops.md",
     "C++/R - C++ Arrays.md",
-    "C++/V - C++ Function.md",
     "C++/H - C++ 输入 (User Input).md",
     "Godot/Godot- 2D Secret/Learn GDScript from zero.md",
     "C++/T - C++ References 参考.md",
     "C++/I - C++ 数据类型 (Data Type).md",
     "C++/E - C++ 输出.md",
     "C++/D - C++ 语法.md",
-    "README.md",
-    "实用工具.md",
     "C++/Y - C++ Exceptions.md",
     "C++/X - C++ Files 文件.md",
     "C++/W - C++ OOP.md",
@@ -219,20 +203,16 @@
     "Pictures/Pasted image 20230417105428.png",
     "Pictures/Pasted image 20230417104110.png",
     "Pictures/Pasted image 20230417104103.png",
-    "记叙文.md",
     "Pictures/Pasted image 20230414213114.png",
     "Pictures/Pasted image 20230414212102.png",
-    "Pictures/Pasted image 20230414212055.png",
     "C++/U - C++ Pointer 指针.md",
     "C++/std.md",
     "C++/S - C++ Structures (struct).md",
     "Daily/2023-04-03.md",
     "C++/Q - C++ Break && Continue.md",
-    "C++/O - C++ Switch.md",
     "C++/N - Conditions.md",
     "C++/C - C++ 入门.md",
     "C++/M - C++ 布尔值 (Boolean).md",
-    "Prompt Engineering/C - Techniques.md",
     "Godot/Godot - Developer Edition",
     "Godot",
     "Untitled.canvas",
