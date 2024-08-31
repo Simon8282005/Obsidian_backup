@@ -122,7 +122,7 @@ int main() {
 // Outputs 8 (5 + 3)
 ```
 
-```cpp
+```c
 int myFunction(int x, int y) {
   return x + y;
 }
