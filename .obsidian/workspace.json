@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/V - C++ Function.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -40,7 +39,6 @@
       {
         "id": "faac774e16f4240a",
         "type": "tabs",
-        "dimension": 42.64194669756663,
         "children": [
           {
             "id": "d77db69490b0678e",
@@ -82,14 +80,7 @@
               "type": "bookmarks",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "e94ab78665307cca",
-        "type": "tabs",
-        "dimension": 57.358053302433376,
-        "children": [
+          },
           {
             "id": "76da57052d1adbaa",
             "type": "leaf",
@@ -175,14 +166,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78d289a4022fbf45",
+  "active": "d77db69490b0678e",
   "lastOpenFiles": [
     "README.md",
+    "C++/V - C++ Function.md",
     "While Loop.md",
     "Real reference.md",
     "实用工具.md",
     "记叙文.md",
-    "C++/V - C++ Function.md",
     "C++/O - C++ Switch.md",
     "Pictures/Pasted image 20230429161848.png",
     "C++/P - C++ Loops.md",
